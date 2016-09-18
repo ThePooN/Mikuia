@@ -160,8 +160,8 @@ app.get '/guides/osu', routes.community.guides.osu
 app.get '/guides/quickstart', routes.community.guides.quickstart
 app.get '/leagues', routes.community.leagues.index
 app.get '/leagues/leaderboards', routes.community.leagues.index
-app.get '/levels', routes.community.levels
-app.get '/levels/:userId', routes.community.levels
+# app.get '/levels', routes.community.levels
+# app.get '/levels/:userId', routes.community.levels
 app.post '/search', routes.community.search
 app.get '/settings', checkAuth, routes.community.settings.index
 app.post '/settings/move', routes.community.settings.move

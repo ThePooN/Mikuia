@@ -69,7 +69,7 @@ Mikuia.Settings.read ->
 	switch process.argv[2]
 		when 'bot' then isBot = true
 		when 'script' then isScript = true
-		when 'web' then isWeb = true
+		when 'web', 'react' then isWeb = true
 		else isBot = true
 			
 	# Let's load plugins.
@@ -104,8 +104,12 @@ Mikuia.Settings.read ->
 		else
 			iced.catchExceptions()
 
-	if isWeb
-		Mikuia.Web = require './web/react.iced'
+	if isWeb 
+		if process.argv[2] == 'web'
+			Mikuia.Web = require './web/web.iced'
+
+		if process.argv[2] == 'react'
+			Mikuia.Web = require './web/react.iced'
 
 		# Stock Leaderboards
 		viewerLeaderboard = new Mikuia.Models.Leaderboard 'viewers'
