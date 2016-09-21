@@ -122,6 +122,7 @@ app.use passport.session()
 # fs.mkdirs 'web/public/img/avatars'
 
 routeList =
+	api: '/web/routes/api'
 	community: 'web/routes/community'
 	dashboard: 'web/routes/dashboard'
 
@@ -151,17 +152,17 @@ app.get '/logout', (req, res) ->
 # app.post '/dashboard/settings/save/:name', checkAuth, routes.dashboard.settings.save
 # app.post '/dashboard/settings/toggle', checkAuth, routes.dashboard.settings.toggle
 
-app.get '/api/levels', routes.community.levels.global
-app.get '/api/levels/:username', routes.community.levels.channel
+app.get '/api/levels', routes.api.levels.global
+app.get '/api/levels/:username', routes.api.levels.channel
 
-app.get '/api/stream/:username', routes.community.stream
-app.get '/api/streams', routes.community.streams
+app.get '/api/stream/:username', routes.api.stream
+app.get '/api/streams', routes.api.streams
 
-app.get '/api/user', routes.community.user
-app.get '/api/user/:username', routes.community.user
-app.get '/api/user/:username/commands', routes.community.userCommands
-app.get '/api/user/:username/levels', routes.community.userLevels
-app.get '/api/user/:username/levels/:channel', routes.community.userLevels
+app.get '/api/user', routes.api.user
+app.get '/api/user/:username', routes.api.user
+app.get '/api/user/:username/commands', routes.api.userCommands
+app.get '/api/user/:username/levels', routes.api.userLevels
+app.get '/api/user/:username/levels/:channel', routes.api.userLevels
 
 # app.get '/', routes.community.index
 # app.get '/about', routes.community.about
