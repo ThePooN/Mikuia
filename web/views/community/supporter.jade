@@ -65,40 +65,4 @@ block content
 						| Examples: !ban, !slow, !subscribers, !timeout, !unban (!host / !unhost require you to set Mikuia as an editor of your channel)
 
 			.col-md-3.animation-fade-in-left
-				a.btn.btn-block.btn-danger(href='https://gamewisp.com/channel/hatsuney/public') Subscribe on GameWisp
-				br
-				.text-muted.text-center or
-				br
-				form(action='https://www.paypal.com/cgi-bin/webscr', method='post', role='form')
-					.panel.panel-default
-						.panel-heading Buy Supporter
-						.panel-body
-								input(type='hidden', name='business', value='psqmaxor+paypal@gmail.com')
-								input(type='hidden', name='charset', value='UTF-8')
-								input(type='hidden', name='cmd', value='_xclick')
-								input(type='hidden', name='currency_code', value='USD')
-								input(type='hidden', name='item_name', value='Mikuia Supporter')
-								input(type='hidden', name='notify_url', value='http://mikuia.tv/ipn')
-
-								.form-group
-									label(for='custom') Twitch Username (double-check!)
-									input.form-control.input-xs(type='text', name='custom', value=(user) ? user.username : null)
-								.form-group
-									label(for='amount') Duration
-									select.form-control.input-xs(name='amount')
-										option(value='5.00') 1 Month - $5.00
-										option(value='10.00') 2 Months - $10.00
-										option(value='15.00') 3 Months - $15.00
-										option(value='19.00') 4 Months - $19.00 (-5%)
-										option(value='27.00') 6 Months - $27.00 (-10%)
-										option(value='48.00') 1 Year - $48.00 (-20%)
-										option(value='90.00') 2 Years - $90.00 (-25%)
-										option(value='150.00') 100 Years - $150.00 (-97.50%)
-						.panel-footer
-							button.btn.btn-danger.btn-sm(type='submit', name='submit') Buy Now
-							small.text-muted.pull-right
-								| Powered by 
-								i.fa.fa-paypal
-
-				small.text-muted
-					| If you donated in the past, you can get few months of supporter from your previous donations, just contact me on Discord or #[a(href='mailto:hatsu@hatsu.tv') hatsu@hatsu.tv]!
+				.text-muted Currently unavailable.

@@ -1,9 +1,16 @@
 {
   "name": "Mikuia",
   "version": "0.0.1",
+  "author": "Hatsuney",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mikuia/Mikuia.git"
+  },
   "scripts": {
     "test": "mocha --compilers iced:iced-coffee-script/register"
   },
+  "homepage": "https://github.com/Mikuia/Mikuia",
   "dependencies": {
     "body-parser": "^1.12.2",
     "cli-color": "^1.0.0",

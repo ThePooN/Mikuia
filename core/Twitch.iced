@@ -32,7 +32,7 @@ class exports.Twitch
 			if !completed
 				callback true, 'Timed out.'
 		, 10000
-		@twitch._get 'streams/?channel=' + channels.join(','), (err, result) =>
+		@twitch._get 'streams/?channel=' + channels.join(',') + '&client_id=' + @Mikuia.settings.twitch.key, (err, result) =>
 			if err || not result.req.res.body?.streams?
 				if !completed
 					@Mikuia.Log.error 'Failed to obtain stream list from Twitch API.'

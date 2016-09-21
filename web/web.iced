@@ -152,7 +152,7 @@ app.post '/dashboard/settings/toggle', checkAuth, routes.dashboard.settings.togg
 app.get '/', routes.community.index
 app.get '/about', routes.community.about
 app.get '/badge/:badgeId', routes.community.badge
-app.get '/contribute', routes.community.contribute
+# app.get '/contribute', routes.community.contribute
 app.get '/guide', routes.community.guides.quickstart
 app.get '/guides/csgo', routes.community.guides.csgo
 app.get '/guides/levels', routes.community.guides.levels
