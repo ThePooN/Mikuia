@@ -1,0 +1,30 @@
+{
+  "error":{
+    "title":"Böyle bir kullanıcı yok.",
+    "description":"Ona ne olduğunu bilmiyorum.<br \/>Belki zaten hiç var olmamıştır?<br \/>Yardımcı olamadığım için üzgünüm."
+  },
+  "nav":{
+    "activity":"Aktivite",
+    "commands":"Komutlar",
+    "statistics":"İstatistikler"
+  },
+  "profile":{
+    "level":"Seviye",
+    "channelsWatched":"kanal izliyor",
+    "channelsWatched_plural":"kanal izliyor",
+    "channelsWatched_0":"kanal izliyor",
+    "channelsWatched_1":"kanal izliyor",
+    "channelsWatched_2":"kanal izliyor",
+    "channelsWatched_3":"kanal izliyor",
+    "channelsWatched_4":"kanal izliyor",
+    "channelsWatched_5":"kanal izliyor",
+    "uniqueViewers":"farklı izleyici",
+    "uniqueViewers_plural":"farklı izleyici",
+    "uniqueViewers_0":"farklı izleyici",
+    "uniqueViewers_1":"farklı izleyici",
+    "uniqueViewers_2":"farklı izleyici",
+    "uniqueViewers_3":"farklı izleyici",
+    "uniqueViewers_4":"farklı izleyici",
+    "uniqueViewers_5":"farklı izleyici"
+  }
+}
