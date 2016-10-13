@@ -1,0 +1,23 @@
+{
+  "details":{
+    "error":"Fehler"
+  },
+  "link":{
+    "home":"Startseite",
+    "channels":"Kanäle",
+    "levels":"Levels",
+    "guides":"Anleitungen",
+    "supporter":"Unterstützer",
+    "leagues":"Leagues",
+    "status":"Status"
+  },
+  "login":{
+    "twitch":"Einloggen mit Twitch"
+  },
+  "user":{
+    "profile":"Profil",
+    "settings":"Einstellungen",
+    "dashboard":"Dashboard",
+    "logout":"Ausloggen"
+  }
+}
