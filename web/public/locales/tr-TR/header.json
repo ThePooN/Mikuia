@@ -1,0 +1,23 @@
+{
+  "details":{
+    "error":"Hata"
+  },
+  "link":{
+    "home":"Ana Sayfa",
+    "channels":"Kanallar",
+    "levels":"Seviyeler",
+    "guides":"Rehberler",
+    "supporter":"Destekçilik",
+    "leagues":"Ligler",
+    "status":"Durum"
+  },
+  "login":{
+    "twitch":"Twitch ile Giriş Yap"
+  },
+  "user":{
+    "profile":"Profil",
+    "settings":"Ayarlar",
+    "dashboard":"Kontrol Paneli",
+    "logout":"Oturumu Kapat"
+  }
+}
