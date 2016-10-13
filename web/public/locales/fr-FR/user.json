@@ -1,0 +1,30 @@
+{
+  "error":{
+    "title":"Cet utilisateur n'existe pas.",
+    "description":"Je ne sais pas ce qui leur est arrivé.<br \/>Peut-être qu'ils n'ont jamais existés ?<br \/>Désolé de ne pas pouvoir vous aider."
+  },
+  "nav":{
+    "activity":"Activité",
+    "commands":"Commandes",
+    "statistics":"Statistiques"
+  },
+  "profile":{
+    "level":"Niveau",
+    "channelsWatched":"chaîne regardée",
+    "channelsWatched_plural":"chaînes regardées",
+    "channelsWatched_0":"chaînes regardées",
+    "channelsWatched_1":"chaîne regardée",
+    "channelsWatched_2":"chaînes regardées",
+    "channelsWatched_3":"chaînes regardées",
+    "channelsWatched_4":"chaînes regardées",
+    "channelsWatched_5":"chaînes regardées",
+    "uniqueViewers":"spectateur unique",
+    "uniqueViewers_plural":"spectateurs uniques",
+    "uniqueViewers_0":"spectateurs uniques",
+    "uniqueViewers_1":"spectateur unique",
+    "uniqueViewers_2":"spectateurs uniques",
+    "uniqueViewers_3":"spectateurs uniques",
+    "uniqueViewers_4":"spectateurs uniques",
+    "uniqueViewers_5":"spectateurs uniques"
+  }
+}
