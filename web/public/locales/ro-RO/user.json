@@ -1,0 +1,30 @@
+{
+  "error":{
+    "title":"Acel utilizator nu există.",
+    "description":"Nu știu ce s-a întâmplat cu el\/ea.<br \/>Poate că nu a existat niciodată?<br \/>Îmi cer scuze că nu am putut să te ajut."
+  },
+  "nav":{
+    "activity":"Activitate",
+    "commands":"Comenzi",
+    "statistics":"Statistici"
+  },
+  "profile":{
+    "level":"Nivele",
+    "channelsWatched":"canal vizionat",
+    "channelsWatched_plural":"canale vizionate",
+    "channelsWatched_0":"canale urmărite",
+    "channelsWatched_1":"canal urmărit",
+    "channelsWatched_2":"canale urmărite",
+    "channelsWatched_3":"canale urmărite",
+    "channelsWatched_4":"canale urmărite",
+    "channelsWatched_5":"canale urmărite",
+    "uniqueViewers":"spectator unic",
+    "uniqueViewers_plural":"spectatori unici",
+    "uniqueViewers_0":"spectatori unici",
+    "uniqueViewers_1":"spectator unic",
+    "uniqueViewers_2":"spectatori unici",
+    "uniqueViewers_3":"spectatori unici",
+    "uniqueViewers_4":"spectatori unici",
+    "uniqueViewers_5":"spectatori unici"
+  }
+}
