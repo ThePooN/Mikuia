@@ -1,0 +1,23 @@
+{
+  "details":{
+    "error":"Ошибка"
+  },
+  "link":{
+    "home":"Главная",
+    "channels":"Каналы",
+    "levels":"Уровни",
+    "guides":"Руководства",
+    "supporter":"Поддержка проекта",
+    "leagues":"Лидеры",
+    "status":"Статус"
+  },
+  "login":{
+    "twitch":"Войти через Twitch"
+  },
+  "user":{
+    "profile":"Профиль",
+    "settings":"Настройки",
+    "dashboard":"Панель управления",
+    "logout":"Выход"
+  }
+}
