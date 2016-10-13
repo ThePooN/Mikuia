@@ -1,0 +1,10 @@
+{
+  "error":{
+    "back":"Poți încerca să te întorci...",
+    "routeNotFound":"Ruta nu a fost găsită.",
+    "routeNotFoundDescription":"Nu știu ce cauți, dar nu există.<br \/>Serios, nu mai face asta din nou.",
+    "title":"La naiba."
+  },
+  "loading3dots":"Se Încarcă...",
+  "seeMoreArrows":"Vezi mai mult >>"
+}
