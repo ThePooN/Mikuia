@@ -1,0 +1,30 @@
+{
+  "error":{
+    "title":"Användaren existerar inte.",
+    "description":"Jag vet inte vad som hände dem.<br \/>De kanske aldrig existerade i förstahand?<br \/> Ledsen men jag kan inte hjälpa dig."
+  },
+  "nav":{
+    "activity":"Aktivitet",
+    "commands":"Kommandon",
+    "statistics":"Statistik"
+  },
+  "profile":{
+    "level":"Nivå",
+    "channelsWatched":"kanal tittad",
+    "channelsWatched_plural":"kanaler tittade",
+    "channelsWatched_0":"kanaler tittade",
+    "channelsWatched_1":"kanal tittad",
+    "channelsWatched_2":"kanaler tittade",
+    "channelsWatched_3":"kanaler tittade",
+    "channelsWatched_4":"kanaler tittade",
+    "channelsWatched_5":"kanaler tittade",
+    "uniqueViewers":"unik tittare",
+    "uniqueViewers_plural":"unika tittare",
+    "uniqueViewers_0":"unika tittare",
+    "uniqueViewers_1":"unik tittare",
+    "uniqueViewers_2":"unika tittare",
+    "uniqueViewers_3":"unika tittare",
+    "uniqueViewers_4":"unika tittare",
+    "uniqueViewers_5":"unika tittare"
+  }
+}
