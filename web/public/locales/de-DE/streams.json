@@ -1,0 +1,7 @@
+{
+  "stream":{
+    "error":"Fehler beim Laden des Streams.",
+    "playing":"spielt {{game}}"
+  },
+  "title":"Live Kanäle"
+}
