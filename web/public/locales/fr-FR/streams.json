@@ -1,0 +1,7 @@
+{
+  "stream":{
+    "error":"Erreur de chargement du stream.",
+    "playing":"joue à {{game}}"
+  },
+  "title":"Chaînes en direct"
+}
