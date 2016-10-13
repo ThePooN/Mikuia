@@ -1,0 +1,30 @@
+{
+  "error":{
+    "title":"Dieser Benutzer existiert nicht.",
+    "description":"Ich weiß nicht, was mit ihm geschehen ist.<br \/>Vielleicht hat er nie wirklich existiert?<br \/>Tut mir Leid, dass ich dir nicht weiterhelfen konnte."
+  },
+  "nav":{
+    "activity":"Aktivität",
+    "commands":"Befehle",
+    "statistics":"Statistiken"
+  },
+  "profile":{
+    "level":"Level",
+    "channelsWatched":"Kanal angesehen",
+    "channelsWatched_plural":"Kanäle angeschaut",
+    "channelsWatched_0":"Kanäle angeschaut",
+    "channelsWatched_1":"Kanal angesehen",
+    "channelsWatched_2":"Kanäle angeschaut",
+    "channelsWatched_3":"Kanäle angeschaut",
+    "channelsWatched_4":"Kanäle angeschaut",
+    "channelsWatched_5":"Kanäle angeschaut",
+    "uniqueViewers":"einzigartiger Zuschauer",
+    "uniqueViewers_plural":"einzigartige Zuschauer",
+    "uniqueViewers_0":"einzigartige Zuschauer",
+    "uniqueViewers_1":"einzigartiger Zuschauer",
+    "uniqueViewers_2":"einzigartige Zuschauer",
+    "uniqueViewers_3":"einzigartige Zuschauer",
+    "uniqueViewers_4":"einzigartige Zuschauer",
+    "uniqueViewers_5":"einzigartige Zuschauer"
+  }
+}
