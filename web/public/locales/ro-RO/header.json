@@ -1,0 +1,23 @@
+{
+  "details":{
+    "error":"Eroare"
+  },
+  "link":{
+    "home":"Acasă",
+    "channels":"Canale",
+    "levels":"Nivele",
+    "guides":"Ghiduri",
+    "supporter":"Suporter",
+    "leagues":"Ligi",
+    "status":"Status"
+  },
+  "login":{
+    "twitch":"Autentifică-te cu Twitch"
+  },
+  "user":{
+    "profile":"Profil",
+    "settings":"Setări",
+    "dashboard":"Panou de control",
+    "logout":"Deconectează-te"
+  }
+}
