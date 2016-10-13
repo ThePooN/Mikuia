@@ -1,0 +1,14 @@
+{
+  "about":{
+    "mikuia":"is a Twitch bot.",
+    "description":"Mikuia helps your viewers interact with games you're playing.<br \/>Looking up stats, sharing accomplishments and useful information, providing level and coin systems!",
+    "guide":"Read the guide!"
+  },
+  "featured":{
+    "example":"Check out an example channel!",
+    "watch":"Watch on Twitch.tv"
+  },
+  "other":{
+    "title":"Other Channels"
+  }
+}
