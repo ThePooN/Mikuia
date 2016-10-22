@@ -10,10 +10,10 @@
     "stats":"Globale Statistiken"
   },
   "history":{
-    "link":"Level History",
-    "title":"{{username}}'s Level History",
-    "failure":"Can't access this users' history.",
-    "failureDescription":"It's possible that the user does not exist.<br \/>They might also not have a history.<br \/>Or maybe you just don't have access to it."
+    "link":"Level Chronik",
+    "title":"{{username}}'s Level Chronik",
+    "failure":"Du kannst auf die Chronik dieses Benutzers nicht zugreifen.",
+    "failureDescription":"Es ist möglich, dass dieser Benutzer nicht existiert.<br \/>Es kann auch sein, dass er keine Chronik hat.<br \/>Oder vielleicht hast du einfach keinen Zugriff darauf."
   },
   "leaderboard":{
     "experience":"Erfahrung",
