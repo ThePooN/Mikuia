@@ -10,10 +10,10 @@
     "stats":"Stats globales"
   },
   "history":{
-    "link":"Level History",
-    "title":"{{username}}'s Level History",
-    "failure":"Can't access this users' history.",
-    "failureDescription":"It's possible that the user does not exist.<br \/>They might also not have a history.<br \/>Or maybe you just don't have access to it."
+    "link":"Historique des niveaux",
+    "title":"Historique des niveaux de {{username}}",
+    "failure":"Impossible d'accéder à l'historique de l'utilisateur.",
+    "failureDescription":"Il est possible que cet utilisateur n’existe pas.<br \/>Il est aussi possible qu'il ne possède aucun historique.<br \/>Ou vous n'avez peut être simplement pas accès a son profil."
   },
   "leaderboard":{
     "experience":"Expérience",
