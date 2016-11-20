@@ -40,7 +40,7 @@ module.exports = (req, res) ->
 
 			for data in channel.experience
 				chan = new Mikuia.Models.Channel data[0]
-				await chan.getDisplayName defer err, displayNames[data[0]]
+				await chan.getCleanDisplayName defer err, displayNames[data[0]]
 				await Mikuia.Database.zrevrank 'levels:' + data[0] + ':experience', Channel.getName(), defer err, ranks[data[0]]
 
 			for name, rank of ranks

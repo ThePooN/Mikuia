@@ -197,6 +197,9 @@ class exports.Channel extends Mikuia.Model
 	getBio: (callback) ->
 		@getInfo 'bio', callback
 
+	getCustomDisplayName: (callback) ->
+		@getInfo 'custom_display_name', callback
+
 	getCleanDisplayName: (callback) ->
 		await @getInfo 'display_name', defer err, data
 
@@ -207,15 +210,18 @@ class exports.Channel extends Mikuia.Model
 
 	getDisplayName: (callback) ->
 		await
-			@getCleanDisplayName defer err, data
-			@isSupporter defer err2, isSupporter
+			@getCleanDisplayName defer err, cleanName
+			@getCustomDisplayName defer err2, customName
+			@isSupporter defer err3, isSupporter
 
-		if @isAdmin()
-			callback err, '✜ ' + data
+		if !err2 and customName?
+			callback err2, customName
+		else if @isAdmin()
+			callback err, '✜ ' + cleanName
 		else if isSupporter
-			callback err, '❤ ' + data
+			callback err, '❤ ' + cleanName
 		else
-			callback err, data
+			callback err, cleanName
 
 	getEmail: (callback) ->
 		@getInfo 'email', callback
@@ -237,6 +243,7 @@ class exports.Channel extends Mikuia.Model
 		@setInfo 'display_name', name, callback
 
 	setEmail: (email, callback) ->
+		await Mikuia.Database.hset 'mikuia:emails', email, @getName(), defer whatever
 		@setInfo 'email', email, callback
 
 	setLogo: (logo, callback) ->
@@ -273,7 +280,7 @@ class exports.Channel extends Mikuia.Model
 
 	# Levels
 
-	addExperience: (channel, experience, activity, callback) =>
+	addExperience: (channel, experience, activity, type, callback) =>
 		await @isBot defer err, isBot
 		if not isBot
 			await @getLevel channel, defer err, level
@@ -292,6 +299,20 @@ class exports.Channel extends Mikuia.Model
 
 					otherChannel.getSetting 'base', 'announceLevels', defer err, announceLevels
 					otherChannel.getSetting 'base', 'announceLimit', defer err2, announceLimit
+
+				payload =
+					timestamp: Math.floor((new Date()).getTime() / 1000)
+					channel: channel
+					experience: experience
+					levelUp: false
+					newLevel: null
+					type: type
+
+				if newLevel > level
+					payload.levelUp = true
+					payload.newLevel = newLevel
+
+				# await Mikuia.Database.lpush 'channel:' + @getName() + ':experience:history', JSON.stringify(payload), defer whatever
 
 				if not err and newLevel > level
 					if announceLevels and not err2 and newLevel % announceLimit == 0 and activity > 0
@@ -349,13 +370,14 @@ class exports.Channel extends Mikuia.Model
 
 		await
 			@getAllExperience defer err, experience
+			@isBanned defer err, isBanned
 			@isBot defer err, isBot
 
-		if isBot
+		if isBot or isBanned
 			await @_del 'experience', defer err
 
 		for data in experience
-			if isBot
+			if isBot or isBanned
 				data[1] = 0
 
 			totalExperience += parseInt data[1]

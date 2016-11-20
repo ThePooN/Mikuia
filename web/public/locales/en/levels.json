@@ -9,6 +9,12 @@
 		"rank": "Global Rank",
 		"stats": "Global Stats"
 	},
+	"history": {
+		"link": "Level History",
+		"title": "{{username}}'s Level History",
+		"failure": "Can't access this users' history.",
+		"failureDescription": "It's possible that the user does not exist.<br />They might also not have a history.<br />Or maybe you just don't have access to it."
+	},
 	"leaderboard": {
 		"experience": "Experience",
 		"level": "Level",

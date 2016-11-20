@@ -22,7 +22,7 @@ Mikuia.Events.on 'twitch.message', (user, to, message) =>
 			chatActivity[user.username][liveChannel.getName()] = 10
 
 			if gibePoints and user.username isnt to.replace '#', ''
-				await Channel.addExperience to.replace('#', ''), Math.round(Math.random() * 1), chatActivity[user.username][liveChannel.getName()], defer whatever
+				await Channel.addExperience to.replace('#', ''), Math.round(Math.random() * 1), chatActivity[user.username][liveChannel.getName()], 'chat', defer whatever
 
 				lastMessage[user.username] = new Date().getTime() / 1000
 
@@ -115,7 +115,7 @@ updateLevels = () ->
 
 					if pointsToAdd > 0 and viewer isnt channel
 						# That method should be moved out of Channel... sigh.
-						await Channel.addExperience channel, pointsToAdd, chatActivity[viewer][channel], defer whatever
+						await Channel.addExperience channel, pointsToAdd, chatActivity[viewer][channel], 'stream', defer whatever
 
 					# Lower the viewer activity by the multiplier.
 					chatActivity[viewer][channel] -= multiplier

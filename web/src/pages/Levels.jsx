@@ -74,8 +74,27 @@ var Levels = React.createClass({
 			<div>
 				<Grid>
 					<Row>
-						<Col md={8}>
+						<Col md={4} mdPush={8}>
+							<Authenticated>
+								<If condition={this.state.stats}>
+									<h1 className="mikuia-page-header-text">
+										{t('levels:sidebar.yourStats')}
+									</h1>
+								</If>
 
+								<If condition={this.state.stats}>
+									<Card>
+										<CardBlock title={t('levels:global.rank')} value={"#" + Tools.commas(this.state.stats.rank)} />
+										<CardBlock title={t('levels:leaderboard.experience')} value={Tools.commas(this.state.stats.experience)} />
+										<CardBlock alignRight title={t('levels:global.level')}>
+											<LevelCircle experience={this.state.stats.experience} />
+										</CardBlock>
+									</Card>
+									<LinkContainer to={"/user/" + this.context.user.username + "/levels"}><a className="pull-right">{t('common:seeMoreArrows')}</a></LinkContainer>
+								</If>
+							</Authenticated>
+						</Col>
+						<Col md={8} mdPull={4}>
 							<h1 className="mikuia-page-header-text">
 								{t('levels:randomChannels')}
 
@@ -87,19 +106,7 @@ var Levels = React.createClass({
 									</OverlayTrigger>
 								</div>
 							</h1>
-						</Col>
-						<Col md={4}>
-							<Authenticated>
-								<If condition={this.state.stats}>
-									<h1 className="mikuia-page-header-text">
-										{t('levels:sidebar.yourStats')}
-									</h1>
-								</If>
-							</Authenticated>
-						</Col>
-					</Row>
-					<Row>
-						<Col md={8}>
+
 							<div className={classNames({"mikuia-loading": this.state.loading})}>
 								<For each="channel" of={this.state.channels}>
 									<Card key={channel.username}>
@@ -118,20 +125,6 @@ var Levels = React.createClass({
 							<If condition={this.state.channels.length == 0}>
 								<span className="text-muted"><i className="fa fa-spinner fa-spin"></i> {t('common:loading3dots')}</span>
 							</If>
-						</Col>
-						<Col md={4}>
-							<Authenticated>
-								<If condition={this.state.stats}>
-									<Card>
-										<CardBlock title={t('levels:global.rank')} value={"#" + Tools.commas(this.state.stats.rank)} />
-										<CardBlock title={t('levels:leaderboard.experience')} value={Tools.commas(this.state.stats.experience)} />
-										<CardBlock alignRight title={t('levels:global.level')}>
-											<LevelCircle experience={this.state.stats.experience} />
-										</CardBlock>
-									</Card>
-									<LinkContainer to={"/user/" + this.context.user.username + "/levels"}><a className="pull-right">{t('common:seeMoreArrows')}</a></LinkContainer>
-								</If>
-							</Authenticated>
 						</Col>
 					</Row>
 				</Grid>

@@ -23,7 +23,7 @@ module.exports = (req, res) ->
 
 						await
 							channel.isStreamer defer err, isStreamer[data[0]]
-							channel.getDisplayName defer err, displayNames[data[0]]
+							channel.getCleanDisplayName defer err, displayNames[data[0]]
 							channel.getLogo defer err, logos[data[0]]
 
 				if req.isAuthenticated()
@@ -74,7 +74,7 @@ module.exports = (req, res) ->
 				experience[md[0]] = md[1]
 
 				chan = new Mikuia.Models.Channel md[0]
-				await chan.getDisplayName defer err, displayNames[md[0]]
+				await chan.getCleanDisplayName defer err, displayNames[md[0]]
 
 				if md[0] in allStreams
 					streams.push md[0]
@@ -88,7 +88,7 @@ module.exports = (req, res) ->
 		for stream in streams
 			if stream?
 				chan = new Mikuia.Models.Channel stream
-				await chan.getDisplayName defer err, displayNames[stream]
+				await chan.getCleanDisplayName defer err, displayNames[stream]
 				await Mikuia.Database.zcard 'levels:' + stream + ':experience', defer err, userCount[stream]
 
 		res.render 'community/levels',

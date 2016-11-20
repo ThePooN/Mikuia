@@ -144,43 +144,11 @@ var UserLevels = React.createClass({
 					<When condition={!this.state.error}>
 						<div className="mikuia-page-padding">
 							<Row>
-								<Col md={8}>
-									<h1 className="mikuia-page-header-text text-white">
-										<Interpolate i18nKey='levels:user.title' username={<LinkContainer to={"/user/" + this.props.params.username}><a className="mikuia-page-header-link">{this.state.user.displayName}</a></LinkContainer>} />
-									</h1>
-								</Col>
-								<Col md={4}>
+								<Col md={4} mdPush={8}>
 									<h1 className="mikuia-page-header-text text-white">
 										{t('levels:global.stats')}
 									</h1>
-								</Col>
-							</Row>
 
-							<Row>
-								<Col md={8} className="mikuia-page-card">
-									<For each="user" index="i" of={this.state.shownLevels}>
-										<Card ranking key={user.username}>
-											<CardBlock flexBasis={250}>
-												<CardBlockUser username={user.username} link={"/levels/" + user.username} />
-											</CardBlock>
-
-											<CardBlock flexBasis={150} alignRight title={t('levels:leaderboard.experience')} value={Tools.commas(user.experience)} />
-											<CardBlockSource flexBasis={150} alignRight title={t('levels:leaderboard.rank')} url={"/api/user/" + this.props.params.username + "/levels/" + user.username} value="rank" prefix="#" link={"/levels/" + user.username}/>
-											<CardBlock flexBasis={70} alignRight title={t('levels:leaderboard.level')}>
-												<LevelCircle experience={user.experience} />
-											</CardBlock>
-											<CardBlock flexBasis={100} alignRight title={t('levels:leaderboard.progress')} value={Tools.getLevelProgress(user.experience) + "%"} />
-										</Card>
-									</For>
-									<If condition={this.state.loading}>
-										<Card>
-											<CardBlock flexBasis={20}>
-												<i className="fa fa-spinner fa-spin" />
-											</CardBlock>
-										</Card>
-									</If>
-								</Col>
-								<Col md={4}>
 									<div className="mikuia-page-card">
 										<If condition={this.state.stats}>
 											<Card>
@@ -188,6 +156,35 @@ var UserLevels = React.createClass({
 												<CardBlock title={t('levels:leaderboard.experience')} value={Tools.commas(this.state.stats.experience)} />
 												<CardBlock alignRight title={t('levels:global.level')}>
 													<LevelCircle experience={this.state.stats.experience} />
+												</CardBlock>
+											</Card>
+										</If>
+									</div>
+								</Col>
+								<Col md={8} mdPull={4}>
+									<h1 className="mikuia-page-header-text text-white">
+										<Interpolate i18nKey='levels:user.title' username={<LinkContainer to={"/user/" + this.props.params.username}><a className="mikuia-page-header-link">{this.state.user.displayName}</a></LinkContainer>} />
+									</h1>
+
+									<div className="mikuia-page-card">
+										<For each="user" index="i" of={this.state.shownLevels}>
+											<Card ranking key={user.username}>
+												<CardBlock flexBasis={250}>
+													<CardBlockUser username={user.username} link={"/levels/" + user.username} />
+												</CardBlock>
+
+												<CardBlock flexBasis={150} alignRight title={t('levels:leaderboard.experience')} value={Tools.commas(user.experience)} />
+												<CardBlockSource flexBasis={150} alignRight title={t('levels:leaderboard.rank')} url={"/api/user/" + this.props.params.username + "/levels/" + user.username} value="rank" prefix="#" link={"/levels/" + user.username}/>
+												<CardBlock flexBasis={70} alignRight title={t('levels:leaderboard.level')}>
+													<LevelCircle experience={user.experience} />
+												</CardBlock>
+												<CardBlock flexBasis={100} alignRight title={t('levels:leaderboard.progress')} value={Tools.getLevelProgress(user.experience) + "%"} />
+											</Card>
+										</For>
+										<If condition={this.state.loading}>
+											<Card>
+												<CardBlock flexBasis={20}>
+													<i className="fa fa-spinner fa-spin" />
 												</CardBlock>
 											</Card>
 										</If>

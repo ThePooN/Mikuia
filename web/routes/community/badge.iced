@@ -15,7 +15,7 @@ module.exports = (req, res) ->
 			Channel = new Mikuia.Models.Channel member
 			memberData[member] = {}
 			await
-				Channel.getDisplayName defer err, memberData[member].displayName
+				Channel.getCleanDisplayName defer err, memberData[member].displayName
 				Channel.getLogo defer err, memberData[member].logo
 
 		res.render 'community/badge',

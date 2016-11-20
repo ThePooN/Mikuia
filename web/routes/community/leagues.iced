@@ -27,7 +27,7 @@ module.exports =
 
 				await
 					channel.isStreamer defer err, isStreamer[data[0]]
-					channel.getDisplayName defer err, displayNames[data[0]]
+					channel.getCleanDisplayName defer err, displayNames[data[0]]
 					channel.getLogo defer err, logos[data[0]]
 					Mikuia.Leagues.getFightCount channel.getName(), defer err, fights[data[0]]
 

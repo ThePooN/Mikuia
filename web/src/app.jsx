@@ -17,6 +17,7 @@ import LevelsChannelPage from './pages/LevelsChannel'
 import NotFoundPage from './pages/NotFoundPage'
 import UserPage from './pages/User'
 import UserLevelsPage from './pages/UserLevels'
+import UserLevelHistoryPage from './pages/UserLevelHistory'
 
 ReactDOM.render(
 	<I18nextProvider i18n={i18n}>
@@ -28,6 +29,7 @@ ReactDOM.render(
 				<Route path="levels" component={LevelsPage} />
 				<Route path="user/:username" component={UserPage} />
 				<Route path="user/:username/levels" component={UserLevelsPage} />
+				<Route path="user/:username/levels/history" component={UserLevelHistoryPage} />
 				<Route path="*" component={NotFoundPage} />
 
 				<IndexRedirect to="/home" />

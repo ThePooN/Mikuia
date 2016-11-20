@@ -25,7 +25,7 @@ Mikuia.Web.get '/dashboard/plugins/coins', checkAuth, (req, res) ->
 
 			await
 				channel.isStreamer defer err, isStreamer[data[0]]
-				channel.getDisplayName defer err, displayNames[data[0]]
+				channel.getCleanDisplayName defer err, displayNames[data[0]]
 				channel.getLogo defer err, logos[data[0]]
 
 	res.render '../../plugins/coins/views/index',

@@ -9,7 +9,7 @@ module.exports = (req, res) ->
 
 			await Channel.getAll defer err, user
 			await
-				Channel.getDisplayName defer err, user.displayName
+				Channel.getCleanDisplayName defer err, user.displayName
 				Mikuia.Database.zrevrank 'mikuia:experience', Channel.getName(), defer err, user.rank
 				# Channel.getLogo defer err, user.logo
 				# Channel.getProfileBanner defer err, user.profileBanner

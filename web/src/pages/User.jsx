@@ -115,7 +115,7 @@ var User = React.createClass({
 							</div>
 							<Grid className="mikuia-profile-content">
 								<Row>
-									<Col md={3}>
+									<Col md={3} xs={12}>
 										<div className="mikuia-profile-sidebar">
 											<img className="mikuia-profile-avatar" src={this.state.user.logo} width="220" height="220" />
 											<h2>{this.state.user.displayName}</h2>
@@ -135,8 +135,9 @@ var User = React.createClass({
 											<ChannelLevelOverview username={this.props.params.username} />
 
 										</div>
+										<br />
 									</Col>
-									<Col md={6}>
+									<Col md={6} xs={12}>
 										<Choose>
 											<When condition={this.state.activeTab == 'activity'}>
 												<h4>they streamed something</h4>
@@ -156,9 +157,11 @@ var User = React.createClass({
 												<h3>stats here</h3>
 											</When>
 										</Choose>
+										<br />
 									</Col>
-									<Col md={3}>
+									<Col md={3} xs={12}>
 										<a href={"http://twitch.tv/" + this.props.params.username} target="_blank"><i className="fa fa-twitch"></i> Twitch</a>
+										<br />
 									</Col>
 								</Row>
 							</Grid>
