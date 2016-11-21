@@ -1,7 +1,7 @@
 {
   "channel":{
     "failure":"Dieser Benutzer existiert nicht.",
-    "failureDescription":"Du hast versucht die Top Level eines Kanals zu überprüfen, welcher nicht existiert.<br \/>Dies ist in 74% der bekanten planetaren Systeme illegal<br \/>Sei froh, dass wir dich so einfach mit einer Warnung davon kommen lassen.",
+    "failureDescription":"Du hast versucht die Top Level eines Kanals zu überprüfen, welcher nicht existiert.<br />Dies ist in 74% der bekanten planetaren Systeme illegal<br />Sei froh, dass wir dich so einfach mit einer Warnung davon kommen lassen.",
     "title":"{{username}} Levels"
   },
   "global":{
@@ -13,7 +13,7 @@
     "link":"Level Chronik",
     "title":"{{username}}'s Level Chronik",
     "failure":"Du kannst auf die Chronik dieses Benutzers nicht zugreifen.",
-    "failureDescription":"Es ist möglich, dass dieser Benutzer nicht existiert.<br \/>Es kann auch sein, dass er keine Chronik hat.<br \/>Oder vielleicht hast du einfach keinen Zugriff darauf."
+    "failureDescription":"Es ist möglich, dass dieser Benutzer nicht existiert.<br />Es kann auch sein, dass er keine Chronik hat.<br />Oder vielleicht hast du einfach keinen Zugriff darauf."
   },
   "leaderboard":{
     "experience":"Erfahrung",
@@ -42,7 +42,7 @@
       "levels":{
         "description":"Level sind eine einfache Representation deiner Aktivität auf dem Kanal. Es gelten auf jedem Kanal die selben Regeln.",
         "descriptionTitle":"Beschreibung",
-        "list":"<li>Das Senden einer Nachricht setzt deine Aktivität auf <b class=\"text-success\">10<\/b>.<\/li><li>Jede Minute wird deine Aktivität um <b class=\"text-success\">1<\/b> reduziert.<\/li><li>Jede Minute bekommst du <b class=\"text-danger\">4 oder 5 XP<\/b>, solange deine Aktivität mindestens <b class=\"text-success\">1<\/b> beträgt.<\/li><li>Falls du auf <b class=\"text-info\">2 Kanälen<\/b> aktiv bist, bekommst du <b class=\"text-danger\">2 XP<\/b> pro Kanal.<\/li><li>Falls du auf <b class=\"text-info\">3 Kanälen<\/b> aktiv bist, bekommst du <b class=\"text-danger\">1 XP<\/b> pro Kanal.<\/li><li>Falls du auf mehr als <b class=\"text-info\">3 Kanälen<\/b> gleichzeitig aktiv bist, bekommst du keine Punkte.<\/li>",
+        "list":"<li>Das Senden einer Nachricht setzt deine Aktivität auf <b class=\"text-success\">10</b>.</li><li>Jede Minute wird deine Aktivität um <b class=\"text-success\">1</b> reduziert.</li><li>Jede Minute bekommst du <b class=\"text-danger\">4 oder 5 XP</b>, solange deine Aktivität mindestens <b class=\"text-success\">1</b> beträgt.</li><li>Falls du auf <b class=\"text-info\">2 Kanälen</b> aktiv bist, bekommst du <b class=\"text-danger\">2 XP</b> pro Kanal.</li><li>Falls du auf <b class=\"text-info\">3 Kanälen</b> aktiv bist, bekommst du <b class=\"text-danger\">1 XP</b> pro Kanal.</li><li>Falls du auf mehr als <b class=\"text-info\">3 Kanälen</b> gleichzeitig aktiv bist, bekommst du keine Punkte.</li>",
         "title":"Wie funktioniert es?"
       },
       "outdatedInfo":{
@@ -50,7 +50,7 @@
         "title":"Falscher Avatar oder falsche Namens Großschreibung?"
       },
       "patreon":{
-        "description":"Hilf dabei die Zukunft von Mikuia zu finanzieren!<br \/>Klicke hier um mehr zu erfahren.",
+        "description":"Hilf dabei die Zukunft von Mikuia zu finanzieren!<br />Klicke hier um mehr zu erfahren.",
         "title":"Werde ein Patron!"
       },
       "title":"Spenden"
@@ -59,7 +59,7 @@
   },
   "user":{
     "failure":"Dieser Benutzer existiert nicht.",
-    "failureDescription":"Du kannst nicht das Level einer Person überprüfen, die nicht existiert!<br \/>Versuche eine Person zu erstellen und probiere es erneut.<br \/>Bitte sei vorsichtig.",
+    "failureDescription":"Du kannst nicht das Level einer Person überprüfen, die nicht existiert!<br />Versuche eine Person zu erstellen und probiere es erneut.<br />Bitte sei vorsichtig.",
     "title":"{{username}}'s Level"
   }
 }
