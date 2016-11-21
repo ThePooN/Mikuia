@@ -1,7 +1,7 @@
 {
   "channel":{
     "failure":"Acel utilizator nu există.",
-    "failureDescription":"Ai încercat să verifici nivelele de top ale unui canal care nu există.<br \/>Asta este ilegal în 74% din sistemul planetar cunoscut.<br \/>Fi mulțumit(ă) că te te lăsăm doar cu un avertisment.",
+    "failureDescription":"Ai încercat să verifici nivelele de top ale unui canal care nu există.<br />Asta este ilegal în 74% din sistemul planetar cunoscut.<br />Fi mulțumit(ă) că te te lăsăm doar cu un avertisment.",
     "title":"Nivele {{username}}"
   },
   "global":{
@@ -13,7 +13,7 @@
     "link":"Level History",
     "title":"{{username}}'s Level History",
     "failure":"Can't access this users' history.",
-    "failureDescription":"It's possible that the user does not exist.<br \/>They might also not have a history.<br \/>Or maybe you just don't have access to it."
+    "failureDescription":"It's possible that the user does not exist.<br />They might also not have a history.<br />Or maybe you just don't have access to it."
   },
   "leaderboard":{
     "experience":"Experiență",
@@ -42,7 +42,7 @@
       "levels":{
         "description":"Nivelele sunt o reprezentare a activității tale pe canal. Regulile sunt aceleași pentru fiecare canal.",
         "descriptionTitle":"Descriere",
-        "list":"<li>Trimițând un mesaj îți setează nivelul de activitate la <b class=\"text-success\">10<\/b>.<\/li><li>În fiecare minut, nivelul de activitate este redus cu<b class=\"text-success\">1<\/b>.<\/li><li> În fiecare minut, primești între <b class=\"text-danger\">4-5 XP<\/b>dacă nivelul tău de activitate este cel puțin <b class=\"text-success\">1<\/b>.<\/li><li>În caz că ești activ în <b class=\"text-info\">2 canale<\/b>. primești <b class=\"text-danger\">2 XP<\/b> pe canal.<\/li><li>În caz că ești activ pe <b class=\"text-info\">3 canale<\/b>, primești <b class=\"text-danger\">1 XP<\/b> pe canal.<\/li><li> Dacă ești activ pe mai mult de <b class=\"text-info\">3 canale<\/b> în același timp, nu primești nici un punct.<\/li>",
+        "list":"<li>Trimițând un mesaj îți setează nivelul de activitate la <b class=\"text-success\">10</b>.</li><li>În fiecare minut, nivelul de activitate este redus cu<b class=\"text-success\">1</b>.</li><li> În fiecare minut, primești între <b class=\"text-danger\">4-5 XP</b>dacă nivelul tău de activitate este cel puțin <b class=\"text-success\">1</b>.</li><li>În caz că ești activ în <b class=\"text-info\">2 canale</b>. primești <b class=\"text-danger\">2 XP</b> pe canal.</li><li>În caz că ești activ pe <b class=\"text-info\">3 canale</b>, primești <b class=\"text-danger\">1 XP</b> pe canal.</li><li> Dacă ești activ pe mai mult de <b class=\"text-info\">3 canale</b> în același timp, nu primești nici un punct.</li>",
         "title":"Cum funcționează?"
       },
       "outdatedInfo":{
@@ -50,7 +50,7 @@
         "title":"Avatarul greșit sau numele scris incorect?"
       },
       "patreon":{
-        "description":"Ajută la finanțarea pe viitor a Mikuia!<br \/>Apasă aici pentru a afla mai multe.",
+        "description":"Ajută la finanțarea pe viitor a Mikuia!<br />Apasă aici pentru a afla mai multe.",
         "title":"Fii un patron!"
       },
       "title":"Sfaturi"
@@ -59,7 +59,7 @@
   },
   "user":{
     "failure":"Acel utilizator nu există.",
-    "failureDescription":"Nu se poate verifica nivelul unei persoane care nu există!<br \/>Poți încerca să creezi o persoană nouă și să încerci din nou.<br \/>Te rog fi atent.",
+    "failureDescription":"Nu se poate verifica nivelul unei persoane care nu există!<br />Poți încerca să creezi o persoană nouă și să încerci din nou.<br />Te rog fi atent.",
     "title":"Nivelele utilizatorului {{username}}"
   }
 }
