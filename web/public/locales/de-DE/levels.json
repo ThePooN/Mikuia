@@ -1,7 +1,7 @@
 {
   "channel":{
     "failure":"Dieser Benutzer existiert nicht.",
-    "failureDescription":"Du hast versucht die Top Level eines Kanals zu überprüfen, welcher nicht existiert.<br />Dies ist in 74% der bekanten planetaren Systeme illegal<br />Sei froh, dass wir dich so einfach mit einer Warnung davon kommen lassen.",
+    "failureDescription":"Du hast versucht die Top Level eines Kanals zu überprüfen, welcher nicht existiert.<br />Dies ist in 74% der bekannten planetaren Systeme illegal.<br />Sei froh, dass wir dich so einfach mit einer Warnung davon kommen lassen.",
     "title":"{{username}} Levels"
   },
   "global":{
