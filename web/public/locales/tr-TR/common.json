@@ -2,7 +2,7 @@
   "error":{
     "back":"Geri gitmeyi deneyebilirsin...",
     "routeNotFound":"Sayfa bulunamadı.",
-    "routeNotFoundDescription":"Ne aradığını bilmiyorum ama öyle bir şey yok.<br \/>Cidden, bunu bir daha yapma.",
+    "routeNotFoundDescription":"Ne aradığını bilmiyorum ama öyle bir şey yok.<br />Cidden, bunu bir daha yapma.",
     "title":"Lanet olsun."
   },
   "loading3dots":"Yükleniyor...",
