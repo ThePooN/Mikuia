@@ -1,7 +1,7 @@
 {
   "error":{
     "title":"Deze gebruiker bestaat niet.",
-    "description":"Ik weet niet wat er fout ging.<br \/>Misschien heeft het wel nooit bestaan?<br \/>Helaas kan ik je niet verder helpen."
+    "description":"Ik weet niet wat er fout ging.<br />Misschien heeft het wel nooit bestaan?<br />Helaas kan ik je niet verder helpen."
   },
   "nav":{
     "activity":"Activiteit",
