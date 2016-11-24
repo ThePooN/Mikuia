@@ -1,7 +1,7 @@
 {
   "error":{
     "title":"Användaren existerar inte.",
-    "description":"Jag vet inte vad som hände dem.<br \/>De kanske aldrig existerade i förstahand?<br \/> Ledsen men jag kan inte hjälpa dig."
+    "description":"Jag vet inte vad som hände dem.<br />De kanske aldrig existerade i förstahand?<br /> Ledsen men jag kan inte hjälpa dig."
   },
   "nav":{
     "activity":"Aktivitet",
