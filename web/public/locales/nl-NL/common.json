@@ -2,7 +2,7 @@
   "error":{
     "back":"Je kunt proberen terug te gaan...",
     "routeNotFound":"Pad niet gevonden.",
-    "routeNotFoundDescription":"Ik weet niet precies wat je zoekt, maar het bestaat niet.<br \/>Doe dat nog eens als je durft.",
+    "routeNotFoundDescription":"Ik weet niet precies wat je zoekt, maar het bestaat niet.<br />Doe dat nog eens als je durft.",
     "title":"Verdorie."
   },
   "loading3dots":"Bezig met laden...",
