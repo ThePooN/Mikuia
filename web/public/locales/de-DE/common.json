@@ -2,7 +2,7 @@
   "error":{
     "back":"Du kannst versuchen zurück zu gehen...",
     "routeNotFound":"Seite nicht gefunden.",
-    "routeNotFoundDescription":"Ich bin mir nicht sicher was du suchst, aber es existiert nicht.<br \/>Ernsthaft, versuche es nicht nochmal.",
+    "routeNotFoundDescription":"Ich bin mir nicht sicher was du suchst, aber es existiert nicht.<br />Ernsthaft, versuche es nicht nochmal.",
     "title":"Verdammt."
   },
   "loading3dots":"Lädt...",
