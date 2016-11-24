@@ -1,7 +1,7 @@
 {
   "channel":{
     "failure":"Användaren finns inte.",
-    "failureDescription":"Du har försökt att kolla på top nivåerna på en kanal som inte finns.<br \/>Detta är olagligt i 74% av kända, planetariska system.<br \/>Var glad att vi låter dig gå med bara en varning.",
+    "failureDescription":"Du har försökt att kolla på top nivåerna på en kanal som inte finns.<br />Detta är olagligt i 74% av kända, planetariska system.<br />Var glad att vi låter dig gå med bara en varning.",
     "title":"{{username}} nivåer"
   },
   "global":{
@@ -13,7 +13,7 @@
     "link":"Nivåhistorik",
     "title":"{{username}} s Nivåhistorik",
     "failure":"Kan inte nå denna användarens historik.",
-    "failureDescription":"Det är möjligt att användaren inte finns.<br \/>De kanske inte har något historik.<br \/>Eller så saknar du behörigheter."
+    "failureDescription":"Det är möjligt att användaren inte finns.<br />De kanske inte har något historik.<br />Eller så saknar du behörigheter."
   },
   "leaderboard":{
     "experience":"Erfarenhet",
@@ -42,7 +42,7 @@
       "levels":{
         "description":"Nivåer är en enkel representation av din aktivitet på kanalen. Reglerna är detsamma för alla kanaler.",
         "descriptionTitle":"Beskrivning",
-        "list":"<li>Skicka ett meddelande sätter din aktivitetsmätare på <b class=\"text-success\">10<\/b>.<\/li><li>I varje minut kommer din aktivitetsmätare minskas med <b class=\"text-success\">1<\/b>.<\/li><li>I Varje minut får du <b class=\"text-danger\">4 eller 5 XP<\/b>om din aktivitetsmätare är minst <b class=\"text-success\">1<\/b>.<\/li><li>Om du är aktiv på <b class=\"text-info\">2 kanaler<\/b> får du<b class=\"text-danger\">2 XP<\/b>per kanal.<\/li><li>Om du är aktiv på <b class=\"text-info\">3 kanaler<\/b> får du <b class=\"text-danger\">1 XP<\/b> per kanal.<\/li><li>Om du är aktiv i mer än <b class=\"text-info\">3 kanaler<\/b> samtidigt så får du inga poäng.<\/li>",
+        "list":"<li>Skicka ett meddelande sätter din aktivitetsmätare på <b class=\"text-success\">10</b>.</li><li>I varje minut kommer din aktivitetsmätare minskas med <b class=\"text-success\">1</b>.</li><li>I Varje minut får du <b class=\"text-danger\">4 eller 5 XP</b>om din aktivitetsmätare är minst <b class=\"text-success\">1</b>.</li><li>Om du är aktiv på <b class=\"text-info\">2 kanaler</b> får du<b class=\"text-danger\">2 XP</b>per kanal.</li><li>Om du är aktiv på <b class=\"text-info\">3 kanaler</b> får du <b class=\"text-danger\">1 XP</b> per kanal.</li><li>Om du är aktiv i mer än <b class=\"text-info\">3 kanaler</b> samtidigt så får du inga poäng.</li>",
         "title":"Hur fungerar det?"
       },
       "outdatedInfo":{
@@ -50,7 +50,7 @@
         "title":"Fel avatar eller versaler?"
       },
       "patreon":{
-        "description":"Hjälp att finansiera framtiden för Mikuia!<br \/>Klicka här för mer info.",
+        "description":"Hjälp att finansiera framtiden för Mikuia!<br />Klicka här för mer info.",
         "title":"Bli en patron!"
       },
       "title":"Tips"
@@ -59,7 +59,7 @@
   },
   "user":{
     "failure":"Användaren finns inte.",
-    "failureDescription":"Kan inte kolla nivån på en person som inte finns!<br \/>Du kan prova att skapa en person och sen försöka igen.<br \/>Var försiktig.",
+    "failureDescription":"Kan inte kolla nivån på en person som inte finns!<br />Du kan prova att skapa en person och sen försöka igen.<br />Var försiktig.",
     "title":"{{username}} s nivåer"
   }
 }
