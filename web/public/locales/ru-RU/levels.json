@@ -1,7 +1,7 @@
 {
   "channel":{
     "failure":"Этого пользователя не существует.",
-    "failureDescription":"Вы попробовали проверить таблицу лидеров для несуществующего канала.<br \/>Это незаконно в 74% известных планетарных систем.<br \/>Буду рад сообщить, что мы лишь выдали вам предупреждение.",
+    "failureDescription":"Вы попробовали проверить таблицу лидеров для несуществующего канала.<br />Это незаконно в 74% известных планетарных систем.<br />Буду рад сообщить, что мы лишь выдали вам предупреждение.",
     "title":"Уровни {{username}}"
   },
   "global":{
@@ -13,7 +13,7 @@
     "link":"Level History",
     "title":"{{username}}'s Level History",
     "failure":"Can't access this users' history.",
-    "failureDescription":"It's possible that the user does not exist.<br \/>They might also not have a history.<br \/>Or maybe you just don't have access to it."
+    "failureDescription":"It's possible that the user does not exist.<br />They might also not have a history.<br />Or maybe you just don't have access to it."
   },
   "leaderboard":{
     "experience":"Опыт",
@@ -42,7 +42,7 @@
       "levels":{
         "description":"Уровни являются простым представлением вашей деятельности на канале. Правила одни для всех каналов.",
         "descriptionTitle":"Описание",
-        "list":"<li>Отправка сообщения устанавливает вашу шкалу активности на <b className=\"text-success\">10<\/b><\/li>\n<li>Каждую минуту ваша шкала активности уменьшается на <b className=\"text-success\">1<\/b><\/li>\n<li>Каждую минуту вы получаете <b className=\"text-danger\">4 или 5 XP<\/b> если ваша шкала активности как минимум на <b className=\"text-success\">1<\/b><\/li>\n<li>В случае если вы активны на <b className=\"text-info\">2 каналах<\/b>, вы получите <b className=\"text-danger\">2 XP<\/b> на каждый канал<\/li>\n<li>В случае если вы активны на <b className=\"text-info\">3 каналах<\/b>, вы получите <b className=\"text-danger\">1 XP<\/b> на каждый канал<\/li>\n<li>Если вы активны на более чем <b className=\"text-info\">3 каналах<\/b> в одно время, вы не получите XP<\/li>",
+        "list":"<li>Отправка сообщения устанавливает вашу шкалу активности на <b className=\"text-success\">10</b></li>\n<li>Каждую минуту ваша шкала активности уменьшается на <b className=\"text-success\">1</b></li>\n<li>Каждую минуту вы получаете <b className=\"text-danger\">4 или 5 XP</b> если ваша шкала активности как минимум на <b className=\"text-success\">1</b></li>\n<li>В случае если вы активны на <b className=\"text-info\">2 каналах</b>, вы получите <b className=\"text-danger\">2 XP</b> на каждый канал</li>\n<li>В случае если вы активны на <b className=\"text-info\">3 каналах</b>, вы получите <b className=\"text-danger\">1 XP</b> на каждый канал</li>\n<li>Если вы активны на более чем <b className=\"text-info\">3 каналах</b> в одно время, вы не получите XP</li>",
         "title":"Как это работает?"
       },
       "outdatedInfo":{
@@ -50,7 +50,7 @@
         "title":"Неправильный аватар или регистр имени?"
       },
       "patreon":{
-        "description":"Помогите финансированию будущего Mikuia!<br \/>Нажмите, чтобы узнать больше.",
+        "description":"Помогите финансированию будущего Mikuia!<br />Нажмите, чтобы узнать больше.",
         "title":"Станьте патроном!"
       },
       "title":"Пожертвования"
@@ -59,7 +59,7 @@
   },
   "user":{
     "failure":"Этого пользователя не существует.",
-    "failureDescription":"Не удаётся проверить уровень этого человека!<br \/>Вы можете создать этого человека и повторить попытку.<br \/>Пожалуйста, будьте осторожны.",
+    "failureDescription":"Не удаётся проверить уровень этого человека!<br />Вы можете создать этого человека и повторить попытку.<br />Пожалуйста, будьте осторожны.",
     "title":"Уровни {{username}}"
   }
 }
