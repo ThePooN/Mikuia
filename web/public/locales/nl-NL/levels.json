@@ -1,7 +1,7 @@
 {
   "channel":{
     "failure":"Deze gebruiker bestaat niet.",
-    "failureDescription":"Je probeert de levels te bekijken van een kanaal dat niet bestaat.<br \/>Dat is natuurlijk niet de bedoeling.<br \/>Voor nu kom je weg met een waarschuwing.",
+    "failureDescription":"Je probeert de levels te bekijken van een kanaal dat niet bestaat.<br />Dat is natuurlijk niet de bedoeling.<br />Voor nu kom je weg met een waarschuwing.",
     "title":"Levels van {{username}}"
   },
   "global":{
@@ -13,7 +13,7 @@
     "link":"Level History",
     "title":"{{username}}'s Level History",
     "failure":"Can't access this users' history.",
-    "failureDescription":"It's possible that the user does not exist.<br \/>They might also not have a history.<br \/>Or maybe you just don't have access to it."
+    "failureDescription":"It's possible that the user does not exist.<br />They might also not have a history.<br />Or maybe you just don't have access to it."
   },
   "leaderboard":{
     "experience":"Experience",
@@ -42,7 +42,7 @@
       "levels":{
         "description":"Levels vormen een eenvoudige weergave van je activiteit op het kanaal. De regels zijn hetzelfde voor elk kanaal.",
         "descriptionTitle":"Beschrijving",
-        "list":"<li>Een bericht sturen zet je activiteitenmeter op <b class=\"text-success\">10<\/b>.<\/li><li>Iedere minuut gaat er <b class=\"text-success\">1<\/b> af van je activiteitenmeter.<\/li><li>Als je activiteitenmeter minstens <b class=\"text-success\">1<\/b> is, krijg je elke minuut <b class=\"text-danger\">4 of 5 XP<\/b>.<\/li><li>Als je actief bent op <b class=\"text-info\">2 kanalen<\/b>, krijg je <b class=\"text-danger\">2 XP<\/b> per kanaal.<\/li><li>Als je actief bent op <b class=\"text-info\">3 kanalen<\/b>, krijg je <b class=\"text-danger\">1 XP<\/b> per kanaal.<\/li><li>Als je actief bent op meer dan <b class=\"text-info\">3 kanalen<\/b> op hetzelfde moment, dan krijg je geen <b class=\"text-danger\">XP<\/b>.<\/li>",
+        "list":"<li>Een bericht sturen zet je activiteitenmeter op <b class=\"text-success\">10</b>.</li><li>Iedere minuut gaat er <b class=\"text-success\">1</b> af van je activiteitenmeter.</li><li>Als je activiteitenmeter minstens <b class=\"text-success\">1</b> is, krijg je elke minuut <b class=\"text-danger\">4 of 5 XP</b>.</li><li>Als je actief bent op <b class=\"text-info\">2 kanalen</b>, krijg je <b class=\"text-danger\">2 XP</b> per kanaal.</li><li>Als je actief bent op <b class=\"text-info\">3 kanalen</b>, krijg je <b class=\"text-danger\">1 XP</b> per kanaal.</li><li>Als je actief bent op meer dan <b class=\"text-info\">3 kanalen</b> op hetzelfde moment, dan krijg je geen <b class=\"text-danger\">XP</b>.</li>",
         "title":"Hoe werkt het?"
       },
       "outdatedInfo":{
@@ -50,7 +50,7 @@
         "title":"Verkeerde avatar of verkeerd hoofdlettergebruik in je naam?"
       },
       "patreon":{
-        "description":"Draag een steentje bij aan de toekomst van Mikuia!<br\/>Klik hier voor meer informatie.",
+        "description":"Draag een steentje bij aan de toekomst van Mikuia!<br/>Klik hier voor meer informatie.",
         "title":"Word een patron!"
       },
       "title":"Tips"
@@ -59,7 +59,7 @@
   },
   "user":{
     "failure":"Deze gebruiker bestaat niet.",
-    "failureDescription":"We kunnen geen levels laden van een persoon dat niet bestaat!<br \/>Maak eerst even een account aan en probeer het dan opnieuw.<br \/>Probeer jezelf niet op te blazen.",
+    "failureDescription":"We kunnen geen levels laden van een persoon dat niet bestaat!<br />Maak eerst even een account aan en probeer het dan opnieuw.<br />Probeer jezelf niet op te blazen.",
     "title":"{{username}}'s Statistieken"
   }
 }
