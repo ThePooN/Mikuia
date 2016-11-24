@@ -1,7 +1,7 @@
 {
   "channel":{
     "failure":"That user does not exist.",
-    "failureDescription":"You have attempted to check the top levels of a channel that does not exist.<br \/>This is illegal in 74% of known planetary systems.<br \/>Be glad that we're letting you off with just a warning.",
+    "failureDescription":"You have attempted to check the top levels of a channel that does not exist.<br />This is illegal in 74% of known planetary systems.<br />Be glad that we're letting you off with just a warning.",
     "title":"{{username}} Levels"
   },
   "global":{
@@ -13,7 +13,7 @@
     "link":"Level History",
     "title":"{{username}}'s Level History",
     "failure":"Can't access this users' history.",
-    "failureDescription":"It's possible that the user does not exist.<br \/>They might also not have a history.<br \/>Or maybe you just don't have access to it."
+    "failureDescription":"It's possible that the user does not exist.<br />They might also not have a history.<br />Or maybe you just don't have access to it."
   },
   "leaderboard":{
     "experience":"Experience",
@@ -42,7 +42,7 @@
       "levels":{
         "description":"Levels are a simple representation of your activity on the channel. The rules are the same for every channel.",
         "descriptionTitle":"Description",
-        "list":"<li>Sending a message sets your activity meter to <b class=\"text-success\">10<\/b>.<\/li><li>Every minute, your activity meter is reduced by <b class=\"text-success\">1<\/b>.<\/li><li>Every minute, you get <b class=\"text-danger\">4 or 5 XP<\/b> if your activity meter is at least at <b class=\"text-success\">1<\/b>.<\/li><li>In case you're active on <b class=\"text-info\">2 channels<\/b>, you get <b class=\"text-danger\">2 XP<\/b> per channel.<\/li><li>In case you're active on <b class=\"text-info\">3 channels<\/b>, you get <b class=\"text-danger\">1 XP<\/b> per channel.<\/li><li>If you're active on more than <b class=\"text-info\">3 channels<\/b> at the same time, you don't get any points.<\/li>",
+        "list":"<li>Sending a message sets your activity meter to <b class=\"text-success\">10</b>.</li><li>Every minute, your activity meter is reduced by <b class=\"text-success\">1</b>.</li><li>Every minute, you get <b class=\"text-danger\">4 or 5 XP</b> if your activity meter is at least at <b class=\"text-success\">1</b>.</li><li>In case you're active on <b class=\"text-info\">2 channels</b>, you get <b class=\"text-danger\">2 XP</b> per channel.</li><li>In case you're active on <b class=\"text-info\">3 channels</b>, you get <b class=\"text-danger\">1 XP</b> per channel.</li><li>If you're active on more than <b class=\"text-info\">3 channels</b> at the same time, you don't get any points.</li>",
         "title":"How does it work?"
       },
       "outdatedInfo":{
@@ -50,7 +50,7 @@
         "title":"Wrong avatar or name capitalization?"
       },
       "patreon":{
-        "description":"Help funding the future of Mikuia!<br \/>Click here to learn more.",
+        "description":"Help funding the future of Mikuia!<br />Click here to learn more.",
         "title":"Become a patron!"
       },
       "title":"Tips"
@@ -59,7 +59,7 @@
   },
   "user":{
     "failure":"That user does not exist.",
-    "failureDescription":"Can't check the levels of a person that does not exist!<br \/>You can try creating a person and then try again.<br \/>Please be careful.",
+    "failureDescription":"Can't check the levels of a person that does not exist!<br />You can try creating a person and then try again.<br />Please be careful.",
     "title":"{{username}}:n tasot"
   }
 }
