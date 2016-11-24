@@ -1,7 +1,7 @@
 {
   "channel":{
     "failure":"Cet utilisateur n'existe pas.",
-    "failureDescription":"Vous avez tenté d'atteindre les plus haut niveaux d’une chaîne qui n’existe pas.<br \/>Ceci est illégal dans 74 % des systèmes planétaires connus.<br \/>Soyez heureux que nous vous laissions avec seulement un avertissement.",
+    "failureDescription":"Vous avez tenté d'atteindre les plus haut niveaux d’une chaîne qui n’existe pas.<br />Ceci est illégal dans 74 % des systèmes planétaires connus.<br />Soyez heureux que nous vous laissions avec seulement un avertissement.",
     "title":"Niveaux de {{username}}"
   },
   "global":{
@@ -13,7 +13,7 @@
     "link":"Historique des niveaux",
     "title":"Historique des niveaux de {{username}}",
     "failure":"Impossible d'accéder à l'historique de l'utilisateur.",
-    "failureDescription":"Il est possible que cet utilisateur n’existe pas.<br \/>Il est aussi possible qu'il ne possède aucun historique.<br \/>Ou vous n'avez peut être simplement pas accès a son profil."
+    "failureDescription":"Il est possible que cet utilisateur n’existe pas.<br />Il est aussi possible qu'il ne possède aucun historique.<br />Ou vous n'avez peut être simplement pas accès a son profil."
   },
   "leaderboard":{
     "experience":"Expérience",
@@ -42,7 +42,7 @@
       "levels":{
         "description":"Les niveaux sont une simple représentation de votre activité sur une chaîne. Les règles sont les mêmes pour toutes les chaînes.",
         "descriptionTitle":"Description",
-        "list":"<li>Envoyer un message fixe votre compteur d'activité à <b class=\"text-success\">10<\/b>.<\/li><li>Chaque minute, votre compteur d'activité diminue d'<b class=\"text-success\">1<\/b>.<\/li><li>Chaque minute, vous gagnez de <b class=\"text-danger\">4 à 5 XP<\/b> si votre compteur d'activité est au moins à <b class=\"text-success\">1<\/b>.<\/li><li>Si vous êtes actif sur <b class=\"text-info\">2 chaînes<\/b>, vous recevrez <b class=\"text-danger\">2 XP<\/b> par chaîne.<\/li><li>Si vous êtes actif sur <b class=\"text-info\">3 chaînes<\/b>, vous recevrez <b class=\"text-danger\">1 XP<\/b> par chaîne.<\/li><li>Si vous êtes actif sur plus de <b class=\"text-info\">3 chaînes<\/b> en même temps, vous ne recevrez pas de points.<\/li>",
+        "list":"<li>Envoyer un message fixe votre compteur d'activité à <b class=\"text-success\">10</b>.</li><li>Chaque minute, votre compteur d'activité diminue d'<b class=\"text-success\">1</b>.</li><li>Chaque minute, vous gagnez de <b class=\"text-danger\">4 à 5 XP</b> si votre compteur d'activité est au moins à <b class=\"text-success\">1</b>.</li><li>Si vous êtes actif sur <b class=\"text-info\">2 chaînes</b>, vous recevrez <b class=\"text-danger\">2 XP</b> par chaîne.</li><li>Si vous êtes actif sur <b class=\"text-info\">3 chaînes</b>, vous recevrez <b class=\"text-danger\">1 XP</b> par chaîne.</li><li>Si vous êtes actif sur plus de <b class=\"text-info\">3 chaînes</b> en même temps, vous ne recevrez pas de points.</li>",
         "title":"Comment ça marche?"
       },
       "outdatedInfo":{
@@ -50,7 +50,7 @@
         "title":"Mauvais avatar ou casse du nom incorrecte ?"
       },
       "patreon":{
-        "description":"Aidez à financer le futur de Mikuia!<br\/>Cliquez ici pour en apprendre plus.",
+        "description":"Aidez à financer le futur de Mikuia!<br/>Cliquez ici pour en apprendre plus.",
         "title":"Soutenez-nous !"
       },
       "title":"Astuces"
@@ -59,7 +59,7 @@
   },
   "user":{
     "failure":"Cet utilisateur n'existe pas.",
-    "failureDescription":"Impossible de vérifier les niveaux d’une personne qui n’existe pas !<br \/>Vous pouvez essayer de créer une personne et réessayer.<br \/>S’il vous plaît, soyez prudent.",
+    "failureDescription":"Impossible de vérifier les niveaux d’une personne qui n’existe pas !<br />Vous pouvez essayer de créer une personne et réessayer.<br />S’il vous plaît, soyez prudent.",
     "title":"Niveaux de {{username}}"
   }
 }
