@@ -2,7 +2,7 @@
   "error":{
     "back":"You can try going back...",
     "routeNotFound":"Route not found.",
-    "routeNotFoundDescription":"I'm not sure what you're looking for, but it doesn't exist.<br \/>Seriously, don't do that again.",
+    "routeNotFoundDescription":"I'm not sure what you're looking for, but it doesn't exist.<br />Seriously, don't do that again.",
     "title":"Damn it."
   },
   "loading3dots":"Loading...",
