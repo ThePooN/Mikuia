@@ -1,7 +1,7 @@
 {
   "error":{
     "title":"That user does not exist.",
-    "description":"I don't know what happened to them.<br \/>Maybe they never existed in the first place?<br \/>Sorry for not being able to help you."
+    "description":"I don't know what happened to them.<br />Maybe they never existed in the first place?<br />Sorry for not being able to help you."
   },
   "nav":{
     "activity":"Activity",
