@@ -1,7 +1,7 @@
 {
   "error":{
     "title":"Cet utilisateur n'existe pas.",
-    "description":"Je ne sais pas ce qui leur est arrivé.<br \/>Peut-être qu'ils n'ont jamais existés ?<br \/>Désolé de ne pas pouvoir vous aider."
+    "description":"Je ne sais pas ce qui leur est arrivé.<br />Peut-être qu'ils n'ont jamais existés ?<br />Désolé de ne pas pouvoir vous aider."
   },
   "nav":{
     "activity":"Activité",
