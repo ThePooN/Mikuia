@@ -4,7 +4,7 @@
   "toc":{
     "answers":{
       "commands":"<ol><li>Open the \"Dashboard\".</li><li>Click \"Commands\".</li><li>Click \"Add a command\".</li><li>Follow the pop-up.</li></ol>",
-      "games":"<ol><li>Open the \"Dashboard\".</li><li>Click \"Plugins\".</li>Find a game you care about and click \"Enable\".<li>Click \"Settings\" next to the button you just clicked.</li></ol>",
+      "games":"<ol><li>Open the \"Dashboard\".</li><li>Click \"Plugins\".</li><li>Find a game you care about and click \"Enable\".</li><li>Click \"Settings\" next to the button you just clicked.</li></ol>",
       "how":"<ol><li>Login using the \"Login with Twitch\" button in the top right corner.</li><li>Click \"Dashboard\" in the top right corner.</li><li>Click \"Settings\".</li><li>Click \"Enable\".</li></ol>",
       "no":"99% of the time, it's your fault. Triple check the settings.<br />Mikuia joins your channel after a short period of time from you going live.",
       "what":"Mikuia is a Twitch bot."
