@@ -4,7 +4,7 @@
   "toc":{
     "answers":{
       "commands":"<ol><li>Open the \"Dashboard\".</li><li>Click \"Commands\".</li><li>Click \"Add a command\".</li><li>Follow the pop-up.</li></ol>",
-      "games":"<ol><li>Open the \"Dashboard\".</li><li>Click \"Plugins\".</li><li>Find a game you care about and click \"Enable\".</li><li>Click \"Settings\" next to the button you just clicked.</li></ol>",
+      "games":"<ol><li>Öffne das \"Dashboard\".</li><li>Klicke auf \"Plugins\".</li><li>Finde ein Spiel welches dich interessiert und klicke auf \"Enable\".</li><li>Klicke auf \"Settings\" neben dem Button den du gerade angeklickt hast.</li></ol>",
       "how":"<ol><li>Melde dich mit dem \"Einloggen mit Twitch\" Button in der oberen rechten Ecke an.</li><li>Klicke auf \"Dashboard\" in der oberen rechten Ecke.</li><li>Klicke auf \"Settings\".</li><li>Klicke auf \"Enable\".</li></ol>",
       "no":"99% of the time, it's your fault. Triple check the settings.<br />Mikuia joins your channel after a short period of time from you going live.",
       "what":"Mikuia ist ein Twitch bot."
@@ -18,5 +18,5 @@
     },
     "title":"Inhaltsverzeichnis"
   },
-  "whatever":"This guide is short because I honestly don't give a fuck.<br />If you need more help, try asking on <a href=\"http://discord.mikuia.tv\">Discord</a>, or use the live chat (violet bubble in bottom right corner)."
+  "whatever":"Diese Anleitung ist kurz weil es mich ehrlich gesagt nicht interessiert.<br />Wenn du noch mehr Hilfe brauchst versuche es auf <a href=\"http://discord.mikuia.tv\">Discord</a> oder benutze den Live Chat (violette Blase in der unteren rechten Ecke)."
 }
