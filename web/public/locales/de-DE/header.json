@@ -6,13 +6,13 @@
     "home":"Startseite",
     "channels":"Kanäle",
     "levels":"Levels",
-    "guide":"Guide",
+    "guide":"Anleitung",
     "supporter":"Unterstützer",
     "leagues":"Leagues",
     "status":"Status"
   },
   "login":{
-    "twitch":"Einloggen mit Twitch"
+    "twitch":"Mit Twitch anmelden"
   },
   "user":{
     "profile":"Profil",
