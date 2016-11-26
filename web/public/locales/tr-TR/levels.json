@@ -11,7 +11,7 @@
   },
   "history":{
     "link":"Seviye Geçmişi",
-    "title":"{{username}} Adlı Kullanıcının Seviye Geçmişi",
+    "title":"{{username}} Kullanıcısının Seviye Geçmişi",
     "failure":"Kullanıcının geçmişine ulaşılamıyor.",
     "failureDescription":"Böyle bir kullanıcı olmayabilir.<br />Bir geçmişleri de olmayabilir.<br />Ya da sadece bunu görmeye yetkin yoktur."
   },
