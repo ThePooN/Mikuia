@@ -3,9 +3,9 @@
   "title":"Die Anleitung",
   "toc":{
     "answers":{
-      "commands":"<ol><li>Open the \"Dashboard\".</li><li>Click \"Commands\".</li><li>Click \"Add a command\".</li><li>Follow the pop-up.</li></ol>",
+      "commands":"<ol><li>Öffne das \"Dashboard\".</li><li>Klicke auf \"Commands\".</li><li>Klicke auf \"Add a command\".</li><li>Folge den Anweisungen des Pop-ups-.</li></ol>",
       "games":"<ol><li>Öffne das \"Dashboard\".</li><li>Klicke auf \"Plugins\".</li><li>Finde ein Spiel welches dich interessiert und klicke auf \"Enable\".</li><li>Klicke auf \"Settings\" neben dem Button den du gerade angeklickt hast.</li></ol>",
-      "how":"<ol><li>Login using the \"Login with Twitch\" button in the top right corner.</li><li>Click \"Dashboard\" in the top right corner.</li><li>Click \"Settings\".</li><li>Click \"Enable\".</li></ol>",
+      "how":"<ol><li>Melde dich mit dem \"Mit Twitch anmelden\" Button in der oberen rechten Ecke an.</li><li>Klicke auf \"Dashboard\" in der oberen rechten Ecke.</li><li>Klicke auf \"Settings\".</li><li>Klicke auf \"Enable\".</li></ol>",
       "no":"In 99% der Fälle ist es deine Schuld. Überprüfe die Einstellungen dreifach.<br />Mikuia betritt deinen Channel kurze Zeit nachdem du deinen Stream gestartet hast.",
       "what":"Mikuia ist ein Twitch bot."
     },
