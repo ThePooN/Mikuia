@@ -1,12 +1,12 @@
 {
-  "alert":"<strong>I swear to God.</strong> No matter how simple to follow the guide is, you people <b>still</b> manage to get completely lost.<br />If you can't understand what is happening, read it again. And again. Ask a friend to help you understand it. Call your mom. Cry a lot.<br />Make sure there's absolutely nothing more you can do before you start asking for help.",
+  "alert":"<strong>Ganz ehrlich.</strong> Egal wie einfach die Anleitung auch ist, ihr werdet es <b>trotzdem</b> schaffen, vollkommen verwirrt zu sein.<br />Wenn du etwas nicht verstehst, lies es nochmal. Und nochmal. Frag einen Freund ob er dir helfen kann es zu verstehen. Ruf deine Mutter an. Weine.<br />Stelle sicher, dass du gar nichts mehr tun kannst bevor du um Hilfe fragst.",
   "title":"Die Anleitung",
   "toc":{
     "answers":{
       "commands":"<ol><li>Open the \"Dashboard\".</li><li>Click \"Commands\".</li><li>Click \"Add a command\".</li><li>Follow the pop-up.</li></ol>",
       "games":"<ol><li>Öffne das \"Dashboard\".</li><li>Klicke auf \"Plugins\".</li><li>Finde ein Spiel welches dich interessiert und klicke auf \"Enable\".</li><li>Klicke auf \"Settings\" neben dem Button den du gerade angeklickt hast.</li></ol>",
       "how":"<ol><li>Login using the \"Login with Twitch\" button in the top right corner.</li><li>Click \"Dashboard\" in the top right corner.</li><li>Click \"Settings\".</li><li>Click \"Enable\".</li></ol>",
-      "no":"99% of the time, it's your fault. Triple check the settings.<br />Mikuia joins your channel after a short period of time from you going live.",
+      "no":"In 99% der Fälle ist es deine Schuld. Überprüfe die Einstellungen dreifach.<br />Mikuia betritt deinen Channel kurze Zeit nachdem du deinen Stream gestartet hast.",
       "what":"Mikuia ist ein Twitch bot."
     },
     "questions":{
