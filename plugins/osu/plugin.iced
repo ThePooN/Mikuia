@@ -340,7 +340,7 @@ makeAPIRequest = (link, callback) =>
 makeTillerinoRequest = (beatmap_id, mods, callback) =>
 	start = process.hrtime()
 	request 
-		url: 'http://bot.tillerino.org:1666/beatmapinfo?k=' + @Plugin.getSetting('tillerinoKey') + '&wait=2000&beatmapid=' + beatmap_id + '&mods=' + mods
+		url: 'https://api.tillerino.org/beatmapinfo?k=' + @Plugin.getSetting('tillerinoKey') + '&wait=2000&beatmapid=' + beatmap_id + '&mods=' + mods
 		timeout: 2000
 	, (error, response, body) ->
 		responseTime = parseInt(process.hrtime(start)[1] / 10000000, 10)
