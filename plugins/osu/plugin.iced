@@ -342,6 +342,8 @@ makeTillerinoRequest = (beatmap_id, mods, callback) =>
 	request 
 		url: 'https://api.tillerino.org/beatmapinfo?k=' + @Plugin.getSetting('tillerinoKey') + '&wait=2000&beatmapid=' + beatmap_id + '&mods=' + mods
 		timeout: 2000
+		agentOptions:
+			rejectUnauthorized: false
 	, (error, response, body) ->
 		responseTime = parseInt(process.hrtime(start)[1] / 10000000, 10)
 
