@@ -13,11 +13,16 @@ export interface Settings {
 			oauth: string,
 			connections: number,
 			clientId: string,
-			autojoin: object[]
+			autojoin: TwitchChannelAutojoinObject[]
 		}
 	},
 	zeromq: {
 		address: string,
 		ports: number[]
 	}
+}
+
+export interface TwitchChannelAutojoinObject {
+	id: number,
+	name: string
 }

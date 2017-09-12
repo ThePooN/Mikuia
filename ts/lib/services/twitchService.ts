@@ -269,6 +269,16 @@ export class TwitchService implements MikuiaService {
 	}
 
 	async start() {
+		for(let autojoinObject of this.settings.services.twitch.autojoin) {
+			var channel = this.getChannel(autojoinObject.id);
+					
+			this.idMappings['#' + autojoinObject.name] = autojoinObject.id;
+			this.idMappings[autojoinObject.name] = autojoinObject.id;
+			this.nameMappings[autojoinObject.id] = autojoinObject.name;
+
+			await this.join(channel);
+		}
+
 		this.updateChannels();
 
 		setInterval(() => {
