@@ -160,10 +160,10 @@ app.post '/dashboard/settings/toggle', checkAuth, routes.dashboard.settings.togg
 app.get '/api/levels', sendCorsHeaders, routes.api.levels.global
 app.get '/api/levels/:username', sendCorsHeaders, routes.api.levels.channel
 
+app.get '/api/user', routes.api.user
+app.get '/api/user/:username', sendCorsHeaders, routes.api.user
 app.get '/api/user/:username/levels', sendCorsHeaders, routes.api.userLevels
 app.get '/api/user/:username/levels/:channel', sendCorsHeaders, routes.api.userLevels
-
-app.get '/api/user', routes.api.user
 
 app.get '/', routes.community.index
 app.get '/about', routes.community.about
