@@ -206,6 +206,7 @@ app.get '/auth/twitch/callback', (req, res, next) =>
 				Channel.setDisplayName user._json.display_name, defer err, data
 				Channel.setBio user._json.bio, defer err, data
 				Channel.setEmail user.email, defer err, data
+				Channel.setId user.id, defer err, data
 				Channel.enablePlugin 'base', defer err, data
 				Channel.getInfo 'key', defer err, key
 

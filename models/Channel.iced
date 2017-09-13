@@ -252,6 +252,10 @@ class exports.Channel extends Mikuia.Model
 	setProfileBanner: (profileBanner, callback) ->
 		@setInfo 'profileBanner', profileBanner, callback
 
+	setId: (id, callback) =>
+		await Mikuia.Database.hset 'mikuia:ids', id, @getName(), defer err, whatever
+		@setInfo 'id', id, callback
+
 	# Moderatoring (LOL)
 
 	isModOf: (channel, callback) ->
