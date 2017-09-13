@@ -13,6 +13,24 @@ class exports.Twitch
 		else
 			@Mikuia.Log.fatal 'Please specify correct Twitch API key and secret.'
 
+	findChannel: (input, callback) ->
+		Channel = new Mikuia.Models.Channel input
+
+		await Channel.exists defer err, exists
+		if err or not exists
+			await Mikuia.Database.hget 'mikuia:ids', input, defer err2, username
+			if not err2 and username?
+				Channel = new Mikuia.Models.Channel username
+				await Channel.exists defer err, exists
+				if not err and exists
+					callback Channel
+				else
+					callback null
+			else
+				callback null
+		else
+			callback Channel
+
 	getChatters: (channel, callback) ->
 		channel = channel.replace('#', '')
 		request 'http://tmi.twitch.tv/group/user/' + channel + '/chatters', (error, response, body) ->

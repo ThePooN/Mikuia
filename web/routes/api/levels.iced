@@ -2,15 +2,11 @@ module.exports =
 
 	channel: (req, res) =>
 		if req.params.username?
-			Channel = new Mikuia.Models.Channel req.params.username
+			await Mikuia.Twitch.findChannel req.params.username, defer Channel
 
-			await Channel.exists defer err, exists
-			if !err and exists
+			if Channel?
 
 				levels = []
-
-
-
 
 				limit = 100
 				offset = 0
@@ -21,21 +17,10 @@ module.exports =
 				if req.param 'offset'
 					offset = parseInt req.param 'offset'
 
-
-
-
-
-
-
-
-
-
-
 				await
 					Mikuia.Database.zcard 'levels:' + Channel.getName() + ':experience', defer err, total
 					Mikuia.Database.zrevrange 'levels:' + Channel.getName() + ':experience', offset, limit + offset - 1, 'withscores', defer err, levelData
 					
-
 				channels = Mikuia.Tools.chunkArray levelData, 2
 
 				for data in channels
@@ -43,7 +28,6 @@ module.exports =
 						levels.push
 							username: data[0]
 							experience: parseInt data[1]
-
 
 				res.json
 					total: total

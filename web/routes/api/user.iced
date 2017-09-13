@@ -1,12 +1,10 @@
 module.exports = (req, res) ->
 	if req.params.username?
-		Channel = new Mikuia.Models.Channel req.params.username
+		await Mikuia.Twitch.findChannel req.params.username, defer Channel
 
-		await Channel.exists defer err, exists
-		if err or not exists
+		if !Channel?
 			res.send 404
 		else
-
 			await Channel.getAll defer err, user
 			await
 				Channel.getCleanDisplayName defer err, user.displayName

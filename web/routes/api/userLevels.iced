@@ -1,12 +1,11 @@
 module.exports = (req, res) =>
 	if req.params.username?
-
 		if req.params.channel?
-			User = new Mikuia.Models.Channel req.params.username
-			Channel = new Mikuia.Models.Channel req.params.channel
-
-			await Channel.exists defer err, exists
-			if !err and exists
+			await 
+				Mikuia.Twitch.findChannel req.params.username, defer User
+				Mikuia.Twitch.findChannel req.params.channel, defer Channel
+			
+			if User? and Channel?
 
 				await
 					Mikuia.Database.zrevrank 'levels:' + Channel.getName() + ':experience', User.getName(), defer err, rank
@@ -27,11 +26,9 @@ module.exports = (req, res) =>
 				res.send 404
 
 		else
-			User = new Mikuia.Models.Channel req.params.username
+			await Mikuia.Twitch.findChannel req.params.username, defer User
 
-			await User.exists defer err, exists
-			if !err and exists
-
+			if User?
 				await Mikuia.Database.hgetall 'channel:' + User.getName() + ':experience', defer err, levelData
 
 				levels = []
@@ -40,7 +37,6 @@ module.exports = (req, res) =>
 						username: channel
 						experience: parseInt experience
 				levels.sort (a,b) -> b.experience - a.experience
-
 
 				res.json
 					levels: levels
