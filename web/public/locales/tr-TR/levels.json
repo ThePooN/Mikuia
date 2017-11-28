@@ -1,65 +1,65 @@
 {
-  "channel":{
-    "failure":"Böyle bir kullanıcı yok.",
-    "failureDescription":"Var olmayan bir kanalın en yüksek seviyelerine bakmaya çalıştın.<br />Bu bilinen yıldız sistemlerinin %74'ünde yasadışı bir hareket.<br />Seni sadece uyardığımız için mutlu olmalısın.",
-    "title":"{{username}} Kanalındaki Seviyeler"
-  },
-  "global":{
-    "level":"Genel Seviye",
-    "rank":"Genel Sıralama",
-    "stats":"Genel İstatistikler"
-  },
-  "history":{
-    "link":"Seviye Geçmişi",
-    "title":"{{username}} Kullanıcısının Seviye Geçmişi",
-    "failure":"Kullanıcının geçmişine ulaşılamıyor.",
-    "failureDescription":"Böyle bir kullanıcı olmayabilir.<br />Bir geçmişleri de olmayabilir.<br />Ya da sadece bunu görmeye yetkin yoktur."
-  },
-  "leaderboard":{
-    "experience":"Puan",
-    "level":"Seviye",
-    "progress":"İlerleme",
-    "rank":"Sıralama",
-    "uniqueViewers":"Farklı İzleyici",
-    "yourLevel":"Seviyen",
-    "yourRank":"Sıralaman"
-  },
-  "randomChannels":"Rastgele Kanallar",
-  "randomize":"Rastgele",
-  "sidebar":{
-    "tips":{
-      "accounts":{
-        "description":"Bütün seviyelerini yeni bir hesaba taşıyabilirsin.",
-        "link":"Ayarlara git.",
-        "title":"Hesabını mı değiştirdin?"
-      },
-      "bots":{
-        "description":"Botları rapor ederek puan kazanmalarının engellenmesini sağlayabilirsin.",
-        "disclaimer":"Uyarı: Discord kanallarımız sadece İngilizce'dir.",
-        "link":"Discord sunucumuza katıl ve bize haber ver.",
-        "title":"Botlar yerini mi kapıyor?"
-      },
-      "levels":{
-        "description":"Seviyeler kanaldaki aktiviteni temsil eder. Her kanalda aynı kurallar geçerlidir.",
-        "descriptionTitle":"Açıklama",
-        "list":"<li>Bir mesaj göndermek, aktivite sayacını <b class=\"text-success\">10</b> yapar.</li><li>Her dakika, aktivite sayacın <b class=\"text-success\">1</b> azalır.</li><li>Her dakika, eğer aktivite metren en az <b class=\"text-success\">1</b> ise, <b class=\"text-danger\">4 veya 5 puanı</b> kazanırsın.</li><li>Eğer <b class=\"text-info\">2 kanalda birden</b> aktifsen, kanal başına <b class=\"text-danger\">2 puanı</b> kazanırsın.</li><li>Eğer <b class=\"text-info\">3 kanalda birden</b> aktifsen, kanal başına <b class=\"text-danger\">1 puan</b> kazanırsın.</li><li>Eğer <b class=\"text-info\">3'ten fazla kanalda birden</b> aktifsen, hiç puan kazanamazsın.</li>",
-        "title":"Bu nasıl çalışıyor?"
-      },
-      "outdatedInfo":{
-        "description":"Düzeltmek için giriş yap!",
-        "title":"Profil resmin veya ismindeki büyük harfler mi yanlış?"
-      },
-      "patreon":{
-        "description":"Mikuia'nın geleceğine yatırım yap!<br />Daha fazlasını öğrenmek için buraya tıkla.",
-        "title":"Bir patron ol!"
-      },
-      "title":"İpuçları"
-    },
-    "yourStats":"İstatistiklerin"
-  },
-  "user":{
-    "failure":"Böyle bir kullanıcı yok.",
-    "failureDescription":"Var olmayan bir kişinin seviyeleri kontrol edilemez!<br /> Bir kişi yaratıp tekrar deneyebilirsin.<br />Lütfen dikkatli ol.",
-    "title":"{{username}} Kullanıcısının Seviyeleri"
-  }
+	"channel": {
+		"failure": "Böyle bir kullanıcı yok.",
+		"failureDescription": "Var olmayan bir kanalın en yüksek seviyelerine bakmaya çalıştın.<br />Bu bilinen yıldız sistemlerinin %74'ünde yasadışı bir hareket.<br />Seni sadece uyardığımız için mutlu olmalısın.",
+		"title": "{{username}} Kanalındaki Seviyeler"
+	},
+	"global": {
+		"level": "Genel Seviye",
+		"rank": "Genel Sıralama",
+		"stats": "Genel İstatistikler"
+	},
+	"history": {
+		"link": "Seviye Geçmişi",
+		"title": "{{username}} Kullanıcısının Seviye Geçmişi",
+		"failure": "Kullanıcının geçmişine ulaşılamıyor.",
+		"failureDescription": "Böyle bir kullanıcı olmayabilir.<br />Bir geçmişleri de olmayabilir.<br />Ya da sadece bunu görmeye yetkin yoktur."
+	},
+	"leaderboard": {
+		"experience": "Puan",
+		"level": "Seviye",
+		"progress": "İlerleme",
+		"rank": "Sıralama",
+		"uniqueViewers": "Farklı İzleyici",
+		"yourLevel": "Seviyen",
+		"yourRank": "Sıralaman"
+	},
+	"randomChannels": "Rastgele Kanallar",
+	"randomize": "Rastgele",
+	"sidebar": {
+		"tips": {
+			"accounts": {
+				"description": "Bütün seviyelerini yeni bir hesaba taşıyabilirsin.",
+				"link": "Ayarlara git.",
+				"title": "Hesabını mı değiştirdin?"
+			},
+			"bots": {
+				"description": "Botları rapor ederek puan kazanmalarının engellenmesini sağlayabilirsin.",
+				"disclaimer": "Uyarı: Discord kanallarımız sadece İngilizce'dir.",
+				"link": "Discord sunucumuza katıl ve bize haber ver.",
+				"title": "Botlar yerini mi kapıyor?"
+			},
+			"levels": {
+				"description": "Seviyeler kanaldaki aktiviteni temsil eder. Her kanalda aynı kurallar geçerlidir.",
+				"descriptionTitle": "Açıklama",
+				"list": "<li>Bir mesaj göndermek, aktivite sayacını <b class=\"text-success\">10</b> yapar.</li><li>Her dakika, aktivite sayacın <b class=\"text-success\">1</b> azalır.</li><li>Her dakika, eğer aktivite metren en az <b class=\"text-success\">1</b> ise, <b class=\"text-danger\">4 veya 5 puanı</b> kazanırsın.</li><li>Eğer <b class=\"text-info\">2 kanalda birden</b> aktifsen, kanal başına <b class=\"text-danger\">2 puanı</b> kazanırsın.</li><li>Eğer <b class=\"text-info\">3 kanalda birden</b> aktifsen, kanal başına <b class=\"text-danger\">1 puan</b> kazanırsın.</li><li>Eğer <b class=\"text-info\">3'ten fazla kanalda birden</b> aktifsen, hiç puan kazanamazsın.</li>",
+				"title": "Bu nasıl çalışıyor?"
+			},
+			"outdatedInfo": {
+				"description": "Düzeltmek için giriş yap!",
+				"title": "Profil resmin veya ismindeki büyük harfler mi yanlış?"
+			},
+			"patreon": {
+				"description": "Mikuia'nın geleceğine yatırım yap!<br />Daha fazlasını öğrenmek için buraya tıkla.",
+				"title": "Bir patron ol!"
+			},
+			"title": "İpuçları"
+		},
+		"yourStats": "İstatistiklerin"
+	},
+	"user": {
+		"failure": "Böyle bir kullanıcı yok.",
+		"failureDescription": "Var olmayan bir kişinin seviyeleri kontrol edilemez!<br /> Bir kişi yaratıp tekrar deneyebilirsin.<br />Lütfen dikkatli ol.",
+		"title": "{{username}} Kullanıcısının Seviyeleri"
+	}
 }
