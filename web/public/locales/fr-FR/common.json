@@ -1,10 +1,10 @@
 {
-  "error":{
-    "back":"Vous pouvez tenter de revenir en arrière ...",
-    "routeNotFound":"Chemin non trouvé.",
-    "routeNotFoundDescription":"Je ne sais pas ce que vous cherchez, mais ... Ça n'existe pas.<br />Sérieusement, ne faites pas ça.",
-    "title":"Oups."
-  },
-  "loading3dots":"Chargement ...",
-  "seeMoreArrows":"Voir plus >>"
+	"error": {
+		"back": "Vous pouvez tenter de revenir en arrière ...",
+		"routeNotFound": "Chemin non trouvé.",
+		"routeNotFoundDescription": "Je ne sais pas ce que vous cherchez, mais ... Ça n'existe pas.<br />Sérieusement, ne faites pas ça.",
+		"title": "Oups."
+	},
+	"loading3dots": "Chargement ...",
+	"seeMoreArrows": "Voir plus >>"
 }
