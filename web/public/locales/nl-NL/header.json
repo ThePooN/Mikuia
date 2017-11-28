@@ -1,23 +1,23 @@
 {
-  "details":{
-    "error":"Foutmelding"
-  },
-  "link":{
-    "home":"Home",
-    "channels":"Kanalen",
-    "levels":"Levels",
-    "guide":"Guide",
-    "supporter":"Supporter",
-    "leagues":"Ranking",
-    "status":"Status"
-  },
-  "login":{
-    "twitch":"Inloggen met Twitch"
-  },
-  "user":{
-    "profile":"Profiel",
-    "settings":"Instellingen",
-    "dashboard":"Dashboard",
-    "logout":"Log uit"
-  }
+	"details": {
+		"error": "Foutmelding"
+	},
+	"link": {
+		"home": "Home",
+		"channels": "Kanalen",
+		"levels": "Levels",
+		"guide": "Guide",
+		"supporter": "Supporter",
+		"leagues": "Ranking",
+		"status": "Status"
+	},
+	"login": {
+		"twitch": "Inloggen met Twitch"
+	},
+	"user": {
+		"profile": "Profiel",
+		"settings": "Instellingen",
+		"dashboard": "Dashboard",
+		"logout": "Log uit"
+	}
 }
