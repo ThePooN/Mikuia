@@ -1,14 +1,14 @@
 {
-  "about":{
-    "mikuia":"est un bot Twitch.",
-    "description":"Mikuia aide vos spectateurs à interagir pendant que vous jouez.<br />Ils peuvent voir leur stats, partager leur succès et des informations utiles, et se servir de la monnaie et des niveaux !",
-    "guide":"Lisez le guide !"
-  },
-  "featured":{
-    "example":"Chaîne au hasard",
-    "watch":"Aller sur la chaîne Twitch"
-  },
-  "other":{
-    "title":"Autres chaînes"
-  }
+	"about": {
+		"mikuia": "est un bot Twitch.",
+		"description": "Mikuia aide vos spectateurs à interagir pendant que vous jouez.<br />Ils peuvent voir leur stats, partager leur succès et des informations utiles, et se servir de la monnaie et des niveaux !",
+		"guide": "Lisez le guide !"
+	},
+	"featured": {
+		"example": "Chaîne au hasard",
+		"watch": "Aller sur la chaîne Twitch"
+	},
+	"other": {
+		"title": "Autres chaînes"
+	}
 }
