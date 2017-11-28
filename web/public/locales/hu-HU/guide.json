@@ -1,22 +1,22 @@
 {
-  "alert":"<strong>I swear to God.</strong> No matter how simple to follow the guide is, you people <b>still</b> manage to get completely lost.<br />If you can't understand what is happening, read it again. And again. Ask a friend to help you understand it. Call your mom. Cry a lot.<br />Make sure there's absolutely nothing more you can do before you start asking for help.",
-  "title":"The Guide",
-  "toc":{
-    "answers":{
-      "commands":"<ol><li>Open the \"Dashboard\".</li><li>Click \"Commands\".</li><li>Click \"Add a command\".</li><li>Follow the pop-up.</li></ol>",
-      "games":"<ol><li>Open the \"Dashboard\".</li><li>Click \"Plugins\".</li><li>Find a game you care about and click \"Enable\".</li><li>Click \"Settings\" next to the button you just clicked.</li></ol>",
-      "how":"<ol><li>Login using the \"Login with Twitch\" button in the top right corner.</li><li>Click \"Dashboard\" in the top right corner.</li><li>Click \"Settings\".</li><li>Click \"Enable\".</li></ol>",
-      "no":"99% of the time, it's your fault. Triple check the settings.<br />Mikuia joins your channel after a short period of time from you going live.",
-      "what":"Mikuia is a Twitch bot."
-    },
-    "questions":{
-      "commands":"How to add commands?",
-      "games":"Where can I find game specific features?",
-      "how":"How to enable Mikuia?",
-      "no":"Why is Mikuia not working?",
-      "what":"What's Mikuia?"
-    },
-    "title":"Table of Contents"
-  },
-  "whatever":"This guide is short because I honestly don't give a fuck.<br />If you need more help, try asking on <a href=\"http://discord.mikuia.tv\">Discord</a>, or use the live chat (violet bubble in bottom right corner)."
+	"alert": "<strong>I swear to God.</strong> No matter how simple to follow the guide is, you people <b>still</b> manage to get completely lost.<br />If you can't understand what is happening, read it again. And again. Ask a friend to help you understand it. Call your mom. Cry a lot.<br />Make sure there's absolutely nothing more you can do before you start asking for help.",
+	"title": "The Guide",
+	"toc": {
+		"answers": {
+			"commands": "<ol><li>Open the \"Dashboard\".</li><li>Click \"Commands\".</li><li>Click \"Add a command\".</li><li>Follow the pop-up.</li></ol>",
+			"games": "<ol><li>Open the \"Dashboard\".</li><li>Click \"Plugins\".</li><li>Find a game you care about and click \"Enable\".</li><li>Click \"Settings\" next to the button you just clicked.</li></ol>",
+			"how": "<ol><li>Login using the \"Login with Twitch\" button in the top right corner.</li><li>Click \"Dashboard\" in the top right corner.</li><li>Click \"Settings\".</li><li>Click \"Enable\".</li></ol>",
+			"no": "99% of the time, it's your fault. Triple check the settings.<br />Mikuia joins your channel after a short period of time from you going live.",
+			"what": "Mikuia is a Twitch bot."
+		},
+		"questions": {
+			"commands": "How to add commands?",
+			"games": "Where can I find game specific features?",
+			"how": "How to enable Mikuia?",
+			"no": "Why is Mikuia not working?",
+			"what": "What's Mikuia?"
+		},
+		"title": "Table of Contents"
+	},
+	"whatever": "This guide is short because I honestly don't give a fuck.<br />If you need more help, try asking on <a href=\"http://discord.mikuia.tv\">Discord</a>, or use the live chat (violet bubble in bottom right corner)."
 }
