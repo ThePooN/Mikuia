@@ -1,10 +1,10 @@
 {
-  "error":{
-    "back":"Вы можете попробовать вернуться назад...",
-    "routeNotFound":"Путь не найден.",
-    "routeNotFoundDescription":"Я не знаю, что вы ищете, но этого не существует.<br />Серьезно, не делайте этого снова.",
-    "title":"Чёрт."
-  },
-  "loading3dots":"Загрузка...",
-  "seeMoreArrows":"See more >>"
+	"error": {
+		"back": "Вы можете попробовать вернуться назад...",
+		"routeNotFound": "Путь не найден.",
+		"routeNotFoundDescription": "Я не знаю, что вы ищете, но этого не существует.<br />Серьезно, не делайте этого снова.",
+		"title": "Чёрт."
+	},
+	"loading3dots": "Загрузка...",
+	"seeMoreArrows": "See more >>"
 }
