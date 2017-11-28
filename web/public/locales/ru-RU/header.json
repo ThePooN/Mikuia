@@ -1,23 +1,23 @@
 {
-  "details":{
-    "error":"Ошибка"
-  },
-  "link":{
-    "home":"Главная",
-    "channels":"Каналы",
-    "levels":"Уровни",
-    "guide":"Guide",
-    "supporter":"Поддержка проекта",
-    "leagues":"Лидеры",
-    "status":"Статус"
-  },
-  "login":{
-    "twitch":"Войти через Twitch"
-  },
-  "user":{
-    "profile":"Профиль",
-    "settings":"Настройки",
-    "dashboard":"Панель управления",
-    "logout":"Выход"
-  }
+	"details": {
+		"error": "Ошибка"
+	},
+	"link": {
+		"home": "Главная",
+		"channels": "Каналы",
+		"levels": "Уровни",
+		"guide": "Guide",
+		"supporter": "Поддержка проекта",
+		"leagues": "Лидеры",
+		"status": "Статус"
+	},
+	"login": {
+		"twitch": "Войти через Twitch"
+	},
+	"user": {
+		"profile": "Профиль",
+		"settings": "Настройки",
+		"dashboard": "Панель управления",
+		"logout": "Выход"
+	}
 }
