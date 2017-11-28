@@ -1,4 +1,4 @@
 {
-  "art":"Арт {{author}}.",
-  "author":"{{author}} сделал это."
+	"art": "Арт {{author}}.",
+	"author": "{{author}} сделал это."
 }
