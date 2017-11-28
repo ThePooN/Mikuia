@@ -1,4 +1,4 @@
 {
-  "art":"Tuotoksen tekijä: {{author}}",
-  "author":"{{author}} made this."
+	"art": "Tuotoksen tekijä: {{author}}",
+	"author": "{{author}} made this."
 }
