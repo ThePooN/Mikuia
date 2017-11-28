@@ -1,23 +1,23 @@
 {
-  "details":{
-    "error":"Fel"
-  },
-  "link":{
-    "home":"Start",
-    "channels":"Kanaler",
-    "levels":"Nivåer",
-    "guide":"Guide",
-    "supporter":"Supporter",
-    "leagues":"Ligor",
-    "status":"Status"
-  },
-  "login":{
-    "twitch":"Logga in med Twitch"
-  },
-  "user":{
-    "profile":"Profil",
-    "settings":"Inställningar",
-    "dashboard":"Instrumentbräda",
-    "logout":"Logga ut"
-  }
+	"details": {
+		"error": "Fel"
+	},
+	"link": {
+		"home": "Start",
+		"channels": "Kanaler",
+		"levels": "Nivåer",
+		"guide": "Guide",
+		"supporter": "Supporter",
+		"leagues": "Ligor",
+		"status": "Status"
+	},
+	"login": {
+		"twitch": "Logga in med Twitch"
+	},
+	"user": {
+		"profile": "Profil",
+		"settings": "Inställningar",
+		"dashboard": "Instrumentbräda",
+		"logout": "Logga ut"
+	}
 }
