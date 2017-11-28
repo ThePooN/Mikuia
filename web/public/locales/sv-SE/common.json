@@ -1,10 +1,10 @@
 {
-  "error":{
-    "back":"Du kan prova att gå tillbaka...",
-    "routeNotFound":"Sidan kunde inte hittas.",
-    "routeNotFoundDescription":"Jag är inte säker vad du letar efter, men det finns inte.<br />Snälla gör inte om det igen.",
-    "title":"Tusan."
-  },
-  "loading3dots":"Laddar...",
-  "seeMoreArrows":"Visa mer >>"
+	"error": {
+		"back": "Du kan prova att gå tillbaka...",
+		"routeNotFound": "Sidan kunde inte hittas.",
+		"routeNotFoundDescription": "Jag är inte säker vad du letar efter, men det finns inte.<br />Snälla gör inte om det igen.",
+		"title": "Tusan."
+	},
+	"loading3dots": "Laddar...",
+	"seeMoreArrows": "Visa mer >>"
 }
