@@ -1,23 +1,23 @@
 {
-  "details":{
-    "error":"Fehler"
-  },
-  "link":{
-    "home":"Startseite",
-    "channels":"Kanäle",
-    "levels":"Levels",
-    "guide":"Anleitung",
-    "supporter":"Unterstützer",
-    "leagues":"Leagues",
-    "status":"Status"
-  },
-  "login":{
-    "twitch":"Mit Twitch anmelden"
-  },
-  "user":{
-    "profile":"Profil",
-    "settings":"Einstellungen",
-    "dashboard":"Dashboard",
-    "logout":"Ausloggen"
-  }
+	"details": {
+		"error": "Fehler"
+	},
+	"link": {
+		"home": "Startseite",
+		"channels": "Kanäle",
+		"levels": "Levels",
+		"guide": "Anleitung",
+		"supporter": "Unterstützer",
+		"leagues": "Leagues",
+		"status": "Status"
+	},
+	"login": {
+		"twitch": "Mit Twitch anmelden"
+	},
+	"user": {
+		"profile": "Profil",
+		"settings": "Einstellungen",
+		"dashboard": "Dashboard",
+		"logout": "Ausloggen"
+	}
 }
