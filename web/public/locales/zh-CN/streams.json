@@ -1,7 +1,7 @@
 {
-  "stream":{
-    "error":"Error loading stream.",
-    "playing":"playing {{game}}"
-  },
-  "title":"Live Channels"
+	"stream": {
+		"error": "Error loading stream.",
+		"playing": "playing {{game}}"
+	},
+	"title": "Live Channels"
 }
