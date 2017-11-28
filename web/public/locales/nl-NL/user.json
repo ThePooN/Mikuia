@@ -1,30 +1,30 @@
 {
-  "error":{
-    "title":"Deze gebruiker bestaat niet.",
-    "description":"Ik weet niet wat er fout ging.<br />Misschien heeft het wel nooit bestaan?<br />Helaas kan ik je niet verder helpen."
-  },
-  "nav":{
-    "activity":"Activiteit",
-    "commands":"Commands",
-    "statistics":"Statistieken"
-  },
-  "profile":{
-    "level":"Level",
-    "channelsWatched":"bekeken kanaal",
-    "channelsWatched_plural":"bekeken kanalen",
-    "channelsWatched_0":"bekeken kanalen",
-    "channelsWatched_1":"bekeken kanaal",
-    "channelsWatched_2":"bekeken kanalen",
-    "channelsWatched_3":"bekeken kanalen",
-    "channelsWatched_4":"bekeken kanalen",
-    "channelsWatched_5":"bekeken kanalen",
-    "uniqueViewers":"unieke kijker",
-    "uniqueViewers_plural":"unieke kijkers",
-    "uniqueViewers_0":"unieke kijkers",
-    "uniqueViewers_1":"unieke kijker",
-    "uniqueViewers_2":"unieke kijkers",
-    "uniqueViewers_3":"unieke kijkers",
-    "uniqueViewers_4":"unieke kijkers",
-    "uniqueViewers_5":"unieke kijkers"
-  }
+	"error": {
+		"title": "Deze gebruiker bestaat niet.",
+		"description": "Ik weet niet wat er fout ging.<br />Misschien heeft het wel nooit bestaan?<br />Helaas kan ik je niet verder helpen."
+	},
+	"nav": {
+		"activity": "Activiteit",
+		"commands": "Commands",
+		"statistics": "Statistieken"
+	},
+	"profile": {
+		"level": "Level",
+		"channelsWatched": "bekeken kanaal",
+		"channelsWatched_plural": "bekeken kanalen",
+		"channelsWatched_0": "bekeken kanalen",
+		"channelsWatched_1": "bekeken kanaal",
+		"channelsWatched_2": "bekeken kanalen",
+		"channelsWatched_3": "bekeken kanalen",
+		"channelsWatched_4": "bekeken kanalen",
+		"channelsWatched_5": "bekeken kanalen",
+		"uniqueViewers": "unieke kijker",
+		"uniqueViewers_plural": "unieke kijkers",
+		"uniqueViewers_0": "unieke kijkers",
+		"uniqueViewers_1": "unieke kijker",
+		"uniqueViewers_2": "unieke kijkers",
+		"uniqueViewers_3": "unieke kijkers",
+		"uniqueViewers_4": "unieke kijkers",
+		"uniqueViewers_5": "unieke kijkers"
+	}
 }
