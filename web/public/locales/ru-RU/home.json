@@ -1,14 +1,14 @@
 {
-  "about":{
-    "mikuia":"является Twitch-ботом.",
-    "description":"Mikuia помогает вашим зрителям взаимодействовать с играми, в которые вы играете.<br />Просматривайте статистику, делитесь достижениями и полезной информацией, используя системы уровней и монет!",
-    "guide":"Прочитайте руководство!"
-  },
-  "featured":{
-    "example":"Check out an example channel!",
-    "watch":"Watch on Twitch.tv"
-  },
-  "other":{
-    "title":"Other Channels"
-  }
+	"about": {
+		"mikuia": "является Twitch-ботом.",
+		"description": "Mikuia помогает вашим зрителям взаимодействовать с играми, в которые вы играете.<br />Просматривайте статистику, делитесь достижениями и полезной информацией, используя системы уровней и монет!",
+		"guide": "Прочитайте руководство!"
+	},
+	"featured": {
+		"example": "Check out an example channel!",
+		"watch": "Watch on Twitch.tv"
+	},
+	"other": {
+		"title": "Other Channels"
+	}
 }
