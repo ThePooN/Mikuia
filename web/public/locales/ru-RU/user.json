@@ -1,30 +1,30 @@
 {
-  "error":{
-    "title":"Этого пользователя не существует.",
-    "description":"Я не знаю что с ними случилось.<br />Может быть они и не существовали?<br />Простите за то, что не можем вам помочь."
-  },
-  "nav":{
-    "activity":"Действия",
-    "commands":"Команды",
-    "statistics":"Статистика"
-  },
-  "profile":{
-    "level":"Уровень",
-    "channelsWatched":"просмотренный канал",
-    "channelsWatched_plural":"просмотренных каналов",
-    "channelsWatched_0":"просмотренных каналов",
-    "channelsWatched_1":"просмотренный канал",
-    "channelsWatched_2":"просмотренных каналов",
-    "channelsWatched_3":"просмотренных каналов",
-    "channelsWatched_4":"просмотренных каналов",
-    "channelsWatched_5":"просмотренных каналов",
-    "uniqueViewers":"уникальный зритель",
-    "uniqueViewers_plural":"уникальных зрителей",
-    "uniqueViewers_0":"уникальных зрителей",
-    "uniqueViewers_1":"уникальный зритель",
-    "uniqueViewers_2":"уникальных зрителей",
-    "uniqueViewers_3":"уникальных зрителей",
-    "uniqueViewers_4":"уникальных зрителей",
-    "uniqueViewers_5":"уникальных зрителей"
-  }
+	"error": {
+		"title": "Этого пользователя не существует.",
+		"description": "Я не знаю что с ними случилось.<br />Может быть они и не существовали?<br />Простите за то, что не можем вам помочь."
+	},
+	"nav": {
+		"activity": "Действия",
+		"commands": "Команды",
+		"statistics": "Статистика"
+	},
+	"profile": {
+		"level": "Уровень",
+		"channelsWatched": "просмотренный канал",
+		"channelsWatched_plural": "просмотренных каналов",
+		"channelsWatched_0": "просмотренных каналов",
+		"channelsWatched_1": "просмотренный канал",
+		"channelsWatched_2": "просмотренных каналов",
+		"channelsWatched_3": "просмотренных каналов",
+		"channelsWatched_4": "просмотренных каналов",
+		"channelsWatched_5": "просмотренных каналов",
+		"uniqueViewers": "уникальный зритель",
+		"uniqueViewers_plural": "уникальных зрителей",
+		"uniqueViewers_0": "уникальных зрителей",
+		"uniqueViewers_1": "уникальный зритель",
+		"uniqueViewers_2": "уникальных зрителей",
+		"uniqueViewers_3": "уникальных зрителей",
+		"uniqueViewers_4": "уникальных зрителей",
+		"uniqueViewers_5": "уникальных зрителей"
+	}
 }
