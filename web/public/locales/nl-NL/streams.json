@@ -1,7 +1,7 @@
 {
-  "stream":{
-    "error":"Fout bij het laden van de stream.",
-    "playing":"speelt {{game}}"
-  },
-  "title":"Live Kanalen"
+	"stream": {
+		"error": "Fout bij het laden van de stream.",
+		"playing": "speelt {{game}}"
+	},
+	"title": "Live Kanalen"
 }
