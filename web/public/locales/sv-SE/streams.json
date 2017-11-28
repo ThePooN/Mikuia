@@ -1,7 +1,7 @@
 {
-  "stream":{
-    "error":"Fel vid uppspelning utav streamen.",
-    "playing":"spelar {{game}}"
-  },
-  "title":"Livekanaler"
+	"stream": {
+		"error": "Fel vid uppspelning utav streamen.",
+		"playing": "spelar {{game}}"
+	},
+	"title": "Livekanaler"
 }
