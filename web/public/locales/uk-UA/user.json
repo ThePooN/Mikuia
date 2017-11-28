@@ -1,30 +1,30 @@
 {
-  "error":{
-    "title":"That user does not exist.",
-    "description":"I don't know what happened to them.<br />Maybe they never existed in the first place?<br />Sorry for not being able to help you."
-  },
-  "nav":{
-    "activity":"Activity",
-    "commands":"Commands",
-    "statistics":"Statistics"
-  },
-  "profile":{
-    "level":"Level",
-    "channelsWatched":"channel watched",
-    "channelsWatched_plural":"channels watched",
-    "channelsWatched_0":"channels watched",
-    "channelsWatched_1":"channel watched",
-    "channelsWatched_2":"channels watched",
-    "channelsWatched_3":"channels watched",
-    "channelsWatched_4":"channels watched",
-    "channelsWatched_5":"channels watched",
-    "uniqueViewers":"unique viewer",
-    "uniqueViewers_plural":"unique viewers",
-    "uniqueViewers_0":"unique viewers",
-    "uniqueViewers_1":"unique viewer",
-    "uniqueViewers_2":"unique viewers",
-    "uniqueViewers_3":"unique viewers",
-    "uniqueViewers_4":"unique viewers",
-    "uniqueViewers_5":"unique viewers"
-  }
+	"error": {
+		"title": "That user does not exist.",
+		"description": "I don't know what happened to them.<br />Maybe they never existed in the first place?<br />Sorry for not being able to help you."
+	},
+	"nav": {
+		"activity": "Activity",
+		"commands": "Commands",
+		"statistics": "Statistics"
+	},
+	"profile": {
+		"level": "Level",
+		"channelsWatched": "channel watched",
+		"channelsWatched_plural": "channels watched",
+		"channelsWatched_0": "channels watched",
+		"channelsWatched_1": "channel watched",
+		"channelsWatched_2": "channels watched",
+		"channelsWatched_3": "channels watched",
+		"channelsWatched_4": "channels watched",
+		"channelsWatched_5": "channels watched",
+		"uniqueViewers": "unique viewer",
+		"uniqueViewers_plural": "unique viewers",
+		"uniqueViewers_0": "unique viewers",
+		"uniqueViewers_1": "unique viewer",
+		"uniqueViewers_2": "unique viewers",
+		"uniqueViewers_3": "unique viewers",
+		"uniqueViewers_4": "unique viewers",
+		"uniqueViewers_5": "unique viewers"
+	}
 }
