@@ -1,14 +1,14 @@
 {
-  "about":{
-    "mikuia":"is een Twitch bot.",
-    "description":"Mikuia helpt je kijkers mee te doen met de spellen die je speelt.<br />Bekijk statistieken, deel prestaties en nuttige informatie. Ingebouwde ranking en munteenheden!",
-    "guide":"Lees de handleiding!"
-  },
-  "featured":{
-    "example":"Bekijk een voorbeeldkanaal!",
-    "watch":"Bekijk op Twitch.tv"
-  },
-  "other":{
-    "title":"Andere kanalen"
-  }
+	"about": {
+		"mikuia": "is een Twitch bot.",
+		"description": "Mikuia helpt je kijkers mee te doen met de spellen die je speelt.<br />Bekijk statistieken, deel prestaties en nuttige informatie. Ingebouwde ranking en munteenheden!",
+		"guide": "Lees de handleiding!"
+	},
+	"featured": {
+		"example": "Bekijk een voorbeeldkanaal!",
+		"watch": "Bekijk op Twitch.tv"
+	},
+	"other": {
+		"title": "Andere kanalen"
+	}
 }
