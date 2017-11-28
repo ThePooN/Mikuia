@@ -1,22 +1,22 @@
 {
-  "alert":"<strong>Ganz ehrlich.</strong> Egal wie einfach die Anleitung auch ist, ihr werdet es <b>trotzdem</b> schaffen, vollkommen verwirrt zu sein.<br />Wenn du etwas nicht verstehst, lies es nochmal. Und nochmal. Frag einen Freund ob er dir helfen kann es zu verstehen. Ruf deine Mutter an. Weine.<br />Stelle sicher, dass du gar nichts mehr tun kannst bevor du um Hilfe fragst.",
-  "title":"Die Anleitung",
-  "toc":{
-    "answers":{
-      "commands":"<ol><li>Öffne das \"Dashboard\".</li><li>Klicke auf \"Commands\".</li><li>Klicke auf \"Add a command\".</li><li>Folge den Anweisungen des Pop-ups-.</li></ol>",
-      "games":"<ol><li>Öffne das \"Dashboard\".</li><li>Klicke auf \"Plugins\".</li><li>Finde ein Spiel welches dich interessiert und klicke auf \"Enable\".</li><li>Klicke auf \"Settings\" neben dem Button den du gerade angeklickt hast.</li></ol>",
-      "how":"<ol><li>Melde dich mit dem \"Mit Twitch anmelden\" Button in der oberen rechten Ecke an.</li><li>Klicke auf \"Dashboard\" in der oberen rechten Ecke.</li><li>Klicke auf \"Settings\".</li><li>Klicke auf \"Enable\".</li></ol>",
-      "no":"In 99% der Fälle ist es deine Schuld. Überprüfe die Einstellungen dreifach.<br />Mikuia betritt deinen Channel kurze Zeit nachdem du deinen Stream gestartet hast.",
-      "what":"Mikuia ist ein Twitch bot."
-    },
-    "questions":{
-      "commands":"Wie fügt man Befehle hinzu?",
-      "games":"Wo kann ich Spiel spezifische Funktionen finden?",
-      "how":"Wie aktiviere ich Mikuia?",
-      "no":"Warum funktioniert Mikuia nicht?",
-      "what":"Was ist Mikuia?"
-    },
-    "title":"Inhaltsverzeichnis"
-  },
-  "whatever":"Diese Anleitung ist kurz weil es mich ehrlich gesagt nicht interessiert.<br />Wenn du noch mehr Hilfe brauchst versuche es auf <a href=\"http://discord.mikuia.tv\">Discord</a> oder benutze den Live Chat (violette Blase in der unteren rechten Ecke)."
+	"alert": "<strong>Ganz ehrlich.</strong> Egal wie einfach die Anleitung auch ist, ihr werdet es <b>trotzdem</b> schaffen, vollkommen verwirrt zu sein.<br />Wenn du etwas nicht verstehst, lies es nochmal. Und nochmal. Frag einen Freund ob er dir helfen kann es zu verstehen. Ruf deine Mutter an. Weine.<br />Stelle sicher, dass du gar nichts mehr tun kannst bevor du um Hilfe fragst.",
+	"title": "Die Anleitung",
+	"toc": {
+		"answers": {
+			"commands": "<ol><li>Öffne das \"Dashboard\".</li><li>Klicke auf \"Commands\".</li><li>Klicke auf \"Add a command\".</li><li>Folge den Anweisungen des Pop-ups-.</li></ol>",
+			"games": "<ol><li>Öffne das \"Dashboard\".</li><li>Klicke auf \"Plugins\".</li><li>Finde ein Spiel welches dich interessiert und klicke auf \"Enable\".</li><li>Klicke auf \"Settings\" neben dem Button den du gerade angeklickt hast.</li></ol>",
+			"how": "<ol><li>Melde dich mit dem \"Mit Twitch anmelden\" Button in der oberen rechten Ecke an.</li><li>Klicke auf \"Dashboard\" in der oberen rechten Ecke.</li><li>Klicke auf \"Settings\".</li><li>Klicke auf \"Enable\".</li></ol>",
+			"no": "In 99% der Fälle ist es deine Schuld. Überprüfe die Einstellungen dreifach.<br />Mikuia betritt deinen Channel kurze Zeit nachdem du deinen Stream gestartet hast.",
+			"what": "Mikuia ist ein Twitch bot."
+		},
+		"questions": {
+			"commands": "Wie fügt man Befehle hinzu?",
+			"games": "Wo kann ich Spiel spezifische Funktionen finden?",
+			"how": "Wie aktiviere ich Mikuia?",
+			"no": "Warum funktioniert Mikuia nicht?",
+			"what": "Was ist Mikuia?"
+		},
+		"title": "Inhaltsverzeichnis"
+	},
+	"whatever": "Diese Anleitung ist kurz weil es mich ehrlich gesagt nicht interessiert.<br />Wenn du noch mehr Hilfe brauchst versuche es auf <a href=\"http://discord.mikuia.tv\">Discord</a> oder benutze den Live Chat (violette Blase in der unteren rechten Ecke)."
 }
