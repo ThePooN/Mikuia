@@ -92,9 +92,12 @@ checkForRequest = (user, Channel, message, target, details) =>
 			continueCheck = false
 
 	if continueCheck
+		match = false
 		if /osu.ppy.sh\/(b|s)\/(\d+)/g.test message
 			match = /osu.ppy.sh\/(b|s)\/(\d+)/g.exec message
-
+		else if /osu.ppy.sh\/beatmapsets\/\d+#.+\/(\d+)/g.test message
+			match = {1: 'b', 2: (/osu.ppy.sh\/beatmapsets\/\d+#.+\/(\d+)/g.exec message)[1]}
+		if match
 			await
 				Channel.getSetting 'osu', 'name', defer err, username
 				Channel.getSetting 'osu', 'mode', defer err2, mode
