@@ -503,6 +503,7 @@ sendRequest = (Channel, user, username, map, message, target, details) =>
 				when '3' then modeText = 'osu!mania'
 
 			switch map.approved
+				when '4' then approvedText = 'Loved'
 				when '3' then approvedText = 'Qualified'
 				when '2' then approvedText = 'Approved'
 				when '0' then approvedText = 'Pending'
